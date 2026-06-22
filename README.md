@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0119-pascals-triangle-ii](https://github.com/somit17/DSA/tree/master/0119-pascals-triangle-ii) |
 | [0136-single-number](https://github.com/somit17/DSA/tree/master/0136-single-number) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/somit17/DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0169-majority-element](https://github.com/somit17/DSA/tree/master/0169-majority-element) |
 | [0209-minimum-size-subarray-sum](https://github.com/somit17/DSA/tree/master/0209-minimum-size-subarray-sum) |
 | [0724-find-pivot-index](https://github.com/somit17/DSA/tree/master/0724-find-pivot-index) |
 | [0867-transpose-matrix](https://github.com/somit17/DSA/tree/master/0867-transpose-matrix) |
@@ -33,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/somit17/DSA/tree/master/0053-maximum-subarray) |
+| [0169-majority-element](https://github.com/somit17/DSA/tree/master/0169-majority-element) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -60,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0015-3sum](https://github.com/somit17/DSA/tree/master/0015-3sum) |
+| [0169-majority-element](https://github.com/somit17/DSA/tree/master/0169-majority-element) |
 | [0242-valid-anagram](https://github.com/somit17/DSA/tree/master/0242-valid-anagram) |
 | [0389-find-the-difference](https://github.com/somit17/DSA/tree/master/0389-find-the-difference) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/somit17/DSA/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
@@ -77,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/somit17/DSA/tree/master/0169-majority-element) |
 | [0242-valid-anagram](https://github.com/somit17/DSA/tree/master/0242-valid-anagram) |
 | [0389-find-the-difference](https://github.com/somit17/DSA/tree/master/0389-find-the-difference) |
 | [1160-find-words-that-can-be-formed-by-characters](https://github.com/somit17/DSA/tree/master/1160-find-words-that-can-be-formed-by-characters) |
@@ -109,6 +113,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Counting
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/somit17/DSA/tree/master/0169-majority-element) |
 | [1160-find-words-that-can-be-formed-by-characters](https://github.com/somit17/DSA/tree/master/1160-find-words-that-can-be-formed-by-characters) |
 | [1189-maximum-number-of-balloons](https://github.com/somit17/DSA/tree/master/1189-maximum-number-of-balloons) |
 ## Simulation
