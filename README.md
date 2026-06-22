@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/somit17/DSA/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1732-find-the-highest-altitude](https://github.com/somit17/DSA/tree/master/1732-find-the-highest-altitude) |
 | [1833-maximum-ice-cream-bars](https://github.com/somit17/DSA/tree/master/1833-maximum-ice-cream-bars) |
+| [1929-concatenation-of-array](https://github.com/somit17/DSA/tree/master/1929-concatenation-of-array) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -130,6 +131,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0867-transpose-matrix](https://github.com/somit17/DSA/tree/master/0867-transpose-matrix) |
 | [1688-count-of-matches-in-tournament](https://github.com/somit17/DSA/tree/master/1688-count-of-matches-in-tournament) |
+| [1929-concatenation-of-array](https://github.com/somit17/DSA/tree/master/1929-concatenation-of-array) |
 ## Greedy
 |  |
 | ------- |
