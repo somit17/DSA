@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0066-plus-one](https://github.com/somit17/DSA/tree/master/0066-plus-one) |
 | [0118-pascals-triangle](https://github.com/somit17/DSA/tree/master/0118-pascals-triangle) |
 | [0119-pascals-triangle-ii](https://github.com/somit17/DSA/tree/master/0119-pascals-triangle-ii) |
+| [0136-single-number](https://github.com/somit17/DSA/tree/master/0136-single-number) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/somit17/DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/somit17/DSA/tree/master/0209-minimum-size-subarray-sum) |
 | [0724-find-pivot-index](https://github.com/somit17/DSA/tree/master/0724-find-pivot-index) |
@@ -102,6 +103,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0136-single-number](https://github.com/somit17/DSA/tree/master/0136-single-number) |
 | [0222-count-complete-tree-nodes](https://github.com/somit17/DSA/tree/master/0222-count-complete-tree-nodes) |
 | [0389-find-the-difference](https://github.com/somit17/DSA/tree/master/0389-find-the-difference) |
 ## Counting
