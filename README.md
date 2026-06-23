@@ -30,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0485-max-consecutive-ones](https://github.com/somit17/DSA/tree/master/0485-max-consecutive-ones) |
 | [0724-find-pivot-index](https://github.com/somit17/DSA/tree/master/0724-find-pivot-index) |
 | [0867-transpose-matrix](https://github.com/somit17/DSA/tree/master/0867-transpose-matrix) |
+| [0929-unique-email-addresses](https://github.com/somit17/DSA/tree/master/0929-unique-email-addresses) |
 | [1160-find-words-that-can-be-formed-by-characters](https://github.com/somit17/DSA/tree/master/1160-find-words-that-can-be-formed-by-characters) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/somit17/DSA/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1732-find-the-highest-altitude](https://github.com/somit17/DSA/tree/master/1732-find-the-highest-altitude) |
@@ -94,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/somit17/DSA/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/somit17/DSA/tree/master/0268-missing-number) |
 | [0389-find-the-difference](https://github.com/somit17/DSA/tree/master/0389-find-the-difference) |
+| [0929-unique-email-addresses](https://github.com/somit17/DSA/tree/master/0929-unique-email-addresses) |
 | [1160-find-words-that-can-be-formed-by-characters](https://github.com/somit17/DSA/tree/master/1160-find-words-that-can-be-formed-by-characters) |
 | [1189-maximum-number-of-balloons](https://github.com/somit17/DSA/tree/master/1189-maximum-number-of-balloons) |
 ## String
@@ -107,6 +109,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0151-reverse-words-in-a-string](https://github.com/somit17/DSA/tree/master/0151-reverse-words-in-a-string) |
 | [0242-valid-anagram](https://github.com/somit17/DSA/tree/master/0242-valid-anagram) |
 | [0389-find-the-difference](https://github.com/somit17/DSA/tree/master/0389-find-the-difference) |
+| [0929-unique-email-addresses](https://github.com/somit17/DSA/tree/master/0929-unique-email-addresses) |
 | [1160-find-words-that-can-be-formed-by-characters](https://github.com/somit17/DSA/tree/master/1160-find-words-that-can-be-formed-by-characters) |
 | [1189-maximum-number-of-balloons](https://github.com/somit17/DSA/tree/master/1189-maximum-number-of-balloons) |
 | [1903-largest-odd-number-in-string](https://github.com/somit17/DSA/tree/master/1903-largest-odd-number-in-string) |
