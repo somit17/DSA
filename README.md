@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0209-minimum-size-subarray-sum](https://github.com/somit17/DSA/tree/master/0209-minimum-size-subarray-sum) |
 | [0217-contains-duplicate](https://github.com/somit17/DSA/tree/master/0217-contains-duplicate) |
 | [0268-missing-number](https://github.com/somit17/DSA/tree/master/0268-missing-number) |
+| [0485-max-consecutive-ones](https://github.com/somit17/DSA/tree/master/0485-max-consecutive-ones) |
 | [0724-find-pivot-index](https://github.com/somit17/DSA/tree/master/0724-find-pivot-index) |
 | [0867-transpose-matrix](https://github.com/somit17/DSA/tree/master/0867-transpose-matrix) |
 | [1160-find-words-that-can-be-formed-by-characters](https://github.com/somit17/DSA/tree/master/1160-find-words-that-can-be-formed-by-characters) |
