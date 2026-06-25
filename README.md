@@ -89,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/somit17/DSA/tree/master/0209-minimum-size-subarray-sum) |
 | [0643-maximum-average-subarray-i](https://github.com/somit17/DSA/tree/master/0643-maximum-average-subarray-i) |
+| [2379-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/somit17/DSA/tree/master/2379-minimum-recolors-to-get-k-consecutive-black-blocks) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -124,6 +125,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1189-maximum-number-of-balloons](https://github.com/somit17/DSA/tree/master/1189-maximum-number-of-balloons) |
 | [1903-largest-odd-number-in-string](https://github.com/somit17/DSA/tree/master/1903-largest-odd-number-in-string) |
 | [2264-largest-3-same-digit-number-in-string](https://github.com/somit17/DSA/tree/master/2264-largest-3-same-digit-number-in-string) |
+| [2379-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/somit17/DSA/tree/master/2379-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [2678-number-of-senior-citizens](https://github.com/somit17/DSA/tree/master/2678-number-of-senior-citizens) |
 ## Trie
 |  |
