@@ -12,7 +12,7 @@ class Solution:
         start_even = even_ptr
         while even_ptr and even_ptr.next is not None:
             odd_ptr.next = even_ptr.next
-            even_ptr.next=even_ptr.next.next
+            even_ptr.next = even_ptr.next.next
             odd_ptr = odd_ptr.next
             even_ptr = even_ptr.next
         odd_ptr.next = start_even
