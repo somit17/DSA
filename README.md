@@ -39,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0724-find-pivot-index](https://github.com/somit17/DSA/tree/master/0724-find-pivot-index) |
 | [0735-asteroid-collision](https://github.com/somit17/DSA/tree/master/0735-asteroid-collision) |
 | [0867-transpose-matrix](https://github.com/somit17/DSA/tree/master/0867-transpose-matrix) |
+| [0912-sort-an-array](https://github.com/somit17/DSA/tree/master/0912-sort-an-array) |
 | [0929-unique-email-addresses](https://github.com/somit17/DSA/tree/master/0929-unique-email-addresses) |
 | [1160-find-words-that-can-be-formed-by-characters](https://github.com/somit17/DSA/tree/master/1160-find-words-that-can-be-formed-by-characters) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/somit17/DSA/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
@@ -52,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/somit17/DSA/tree/master/0053-maximum-subarray) |
 | [0169-majority-element](https://github.com/somit17/DSA/tree/master/0169-majority-element) |
 | [0347-top-k-frequent-elements](https://github.com/somit17/DSA/tree/master/0347-top-k-frequent-elements) |
+| [0912-sort-an-array](https://github.com/somit17/DSA/tree/master/0912-sort-an-array) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -97,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/somit17/DSA/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/somit17/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0389-find-the-difference](https://github.com/somit17/DSA/tree/master/0389-find-the-difference) |
+| [0912-sort-an-array](https://github.com/somit17/DSA/tree/master/0912-sort-an-array) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/somit17/DSA/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1833-maximum-ice-cream-bars](https://github.com/somit17/DSA/tree/master/1833-maximum-ice-cream-bars) |
 ## Sliding Window
@@ -184,6 +187,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/somit17/DSA/tree/master/0347-top-k-frequent-elements) |
+| [0912-sort-an-array](https://github.com/somit17/DSA/tree/master/0912-sort-an-array) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/somit17/DSA/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 ## Linked List
 |  |
@@ -258,11 +262,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Counting Sort
 |  |
 | ------- |
+| [0912-sort-an-array](https://github.com/somit17/DSA/tree/master/0912-sort-an-array) |
 | [1833-maximum-ice-cream-bars](https://github.com/somit17/DSA/tree/master/1833-maximum-ice-cream-bars) |
 ## Bucket Sort
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/somit17/DSA/tree/master/0347-top-k-frequent-elements) |
+| [0912-sort-an-array](https://github.com/somit17/DSA/tree/master/0912-sort-an-array) |
 ## Quickselect
 |  |
 | ------- |
@@ -280,4 +286,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0374-guess-number-higher-or-lower](https://github.com/somit17/DSA/tree/master/0374-guess-number-higher-or-lower) |
+## Merge Sort
+|  |
+| ------- |
+| [0912-sort-an-array](https://github.com/somit17/DSA/tree/master/0912-sort-an-array) |
+## Radix Sort
+|  |
+| ------- |
+| [0912-sort-an-array](https://github.com/somit17/DSA/tree/master/0912-sort-an-array) |
 <!---LeetCode Topics End-->
