@@ -6,22 +6,16 @@
 #         self.right = right
 class Solution:
     def postorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
-        result = []
-
-        def traverse_recursive(root):
+        values = []
+        def recursive_approach(root):
             if not root:
-                return 
-            traverse_recursive(root.left)
-            traverse_recursive(root.right)
-            result.append(root.val)
-
-        traverse_recursive(root)
-        return result
-        
-        #Using 2 stacks
-        def traverse_iterative(root):
+                return
+            recursive_approach(root.left)
+            recursive_approach(root.right)
+            values.append(root.val)
+        recursive_approach(root)
+        def iterative_approach(root):
             stack1,stack2 = [root],[]
-
             while stack1:
                 node = stack1.pop()
                 stack2.append(node)
@@ -31,7 +25,6 @@ class Solution:
                     stack1.append(node.right)
 
             while stack2:
-                result.append(stack2.pop().val)
+                values.append(stack2.pop().val)
             return 
-        
-        return result
+        return values
