@@ -6,17 +6,19 @@
 #         self.right = right
 class Solution:
     def isSameTree(self, p: Optional[TreeNode], q: Optional[TreeNode]) -> bool:
-        def recursive_approach(p,q):
+        def _isSameTree(p,q) -> bool:
             if not p and not q:
                 return True
             if not p or not q:
                 return False
-            if p.val == q.val:
-                return recursive_approach(p.left,q.left) and recursive_approach(p.right,q.right)
-            return False
-        #return recursive_approach(p,q)
+            return p.val == q.val and (_isSameTree(p.left,q.left) and _isSameTree(p.right,q.right))
+        #return _isSameTree(p,q)
 
-        def iterative_approach(p,q):
+        def dfs_iterative(p,q):
+            if not p and not q:
+                return True
+            if not p or not q:
+                return False
             stack = [(p,q)]
             while stack:
                 node1,node2 = stack.pop()
@@ -27,6 +29,16 @@ class Solution:
                 stack.append((node1.left,node2.left))
                 stack.append((node1.right,node2.right))
             return True
-        return iterative_approach(p,q)
-                
-        
+
+        def bfs_approach(p,q):
+            queue = deque([(p, q)])
+            while queue:
+                node1, node2 = queue.popleft()
+                if not node1 and not node2:
+                    continue
+                if not node1 or not node2 or node1.val != node2.val:
+                    return False  
+                queue.append((node1.left, node2.left))
+                queue.append((node1.right, node2.right))
+            return True
+        return bfs_approach(p,q)
