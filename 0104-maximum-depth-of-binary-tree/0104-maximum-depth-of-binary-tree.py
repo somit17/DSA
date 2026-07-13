@@ -6,24 +6,20 @@
 #         self.right = right
 class Solution:
     def maxDepth(self, root: Optional[TreeNode]) -> int:
-        #Level Order Traversal
+        #Using BFS Approach
         if not root:
             return 0
-        level = 0
+        depth = 0
         queue = deque([root])
         while queue:
             level_size = len(queue)
-            current_level = []
             for i in range(level_size):
-                node = queue.popleft()
-                current_level.append(node.val)
-                if node.left:
-                    queue.append(node.left)
-                if node.right:
-                    queue.append(node.right)
-            level+=1
-        return level
-
-                
+                current_node = queue.popleft()
+                if current_node.left:
+                    queue.append(current_node.left)
+                if current_node.right:
+                    queue.append(current_node.right)
+            depth+=1
+        return depth
 
         
