@@ -161,6 +161,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0125-valid-palindrome](https://github.com/somit17/DSA/tree/master/0125-valid-palindrome) |
 | [0151-reverse-words-in-a-string](https://github.com/somit17/DSA/tree/master/0151-reverse-words-in-a-string) |
 | [0242-valid-anagram](https://github.com/somit17/DSA/tree/master/0242-valid-anagram) |
+| [0257-binary-tree-paths](https://github.com/somit17/DSA/tree/master/0257-binary-tree-paths) |
 | [0389-find-the-difference](https://github.com/somit17/DSA/tree/master/0389-find-the-difference) |
 | [0680-valid-palindrome-ii](https://github.com/somit17/DSA/tree/master/0680-valid-palindrome-ii) |
 | [0929-unique-email-addresses](https://github.com/somit17/DSA/tree/master/0929-unique-email-addresses) |
@@ -264,6 +265,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0145-binary-tree-postorder-traversal](https://github.com/somit17/DSA/tree/master/0145-binary-tree-postorder-traversal) |
 | [0222-count-complete-tree-nodes](https://github.com/somit17/DSA/tree/master/0222-count-complete-tree-nodes) |
 | [0226-invert-binary-tree](https://github.com/somit17/DSA/tree/master/0226-invert-binary-tree) |
+| [0257-binary-tree-paths](https://github.com/somit17/DSA/tree/master/0257-binary-tree-paths) |
 | [0404-sum-of-left-leaves](https://github.com/somit17/DSA/tree/master/0404-sum-of-left-leaves) |
 | [0513-find-bottom-left-tree-value](https://github.com/somit17/DSA/tree/master/0513-find-bottom-left-tree-value) |
 ## Depth-First Search
@@ -279,6 +281,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0144-binary-tree-preorder-traversal](https://github.com/somit17/DSA/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/somit17/DSA/tree/master/0145-binary-tree-postorder-traversal) |
 | [0226-invert-binary-tree](https://github.com/somit17/DSA/tree/master/0226-invert-binary-tree) |
+| [0257-binary-tree-paths](https://github.com/somit17/DSA/tree/master/0257-binary-tree-paths) |
 | [0404-sum-of-left-leaves](https://github.com/somit17/DSA/tree/master/0404-sum-of-left-leaves) |
 | [0513-find-bottom-left-tree-value](https://github.com/somit17/DSA/tree/master/0513-find-bottom-left-tree-value) |
 ## Binary Tree
@@ -296,6 +299,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0145-binary-tree-postorder-traversal](https://github.com/somit17/DSA/tree/master/0145-binary-tree-postorder-traversal) |
 | [0222-count-complete-tree-nodes](https://github.com/somit17/DSA/tree/master/0222-count-complete-tree-nodes) |
 | [0226-invert-binary-tree](https://github.com/somit17/DSA/tree/master/0226-invert-binary-tree) |
+| [0257-binary-tree-paths](https://github.com/somit17/DSA/tree/master/0257-binary-tree-paths) |
 | [0404-sum-of-left-leaves](https://github.com/somit17/DSA/tree/master/0404-sum-of-left-leaves) |
 | [0513-find-bottom-left-tree-value](https://github.com/somit17/DSA/tree/master/0513-find-bottom-left-tree-value) |
 ## Breadth-First Search
@@ -359,4 +363,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/somit17/DSA/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+## Backtracking
+|  |
+| ------- |
+| [0257-binary-tree-paths](https://github.com/somit17/DSA/tree/master/0257-binary-tree-paths) |
 <!---LeetCode Topics End-->
