@@ -9,22 +9,16 @@ class Solution:
         def dfs_approach(root):
             if not root:
                 return 0
-            return dfs_approach(root.left)+dfs_approach(root.right)+1
-        #return dfs_approach(root)  
-
-        def bfs_approach(root):
-            if not root:
-                return 0
-            queue = deque([root])
+            stack = [root]
             count = 0
-            while queue : 
-                level_size = len(queue)
-                for i in range(level_size):
-                    node = queue.popleft()
-                    count+=1
-                    if node and node.left:
-                        queue.append(node.left)
-                    if node and node.right:
-                        queue.append(node.right)
+            while stack:
+                node = stack.pop()
+                count+=1
+                if node.left:
+                    stack.append(node.left)
+                if node.right:
+                    stack.append(node.right)
             return count
-        return bfs_approach(root)
+        return dfs_approach(root)
+
+        
