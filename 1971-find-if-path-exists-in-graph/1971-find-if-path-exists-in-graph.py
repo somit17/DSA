@@ -1,6 +1,5 @@
 class Solution:
     def validPath(self, n: int, edges: List[List[int]], source: int, destination: int) -> bool:
-        visited = set()
         def build_adj_list(edges):
             adj = {}
             for edge in edges:
@@ -26,5 +25,18 @@ class Solution:
                     return True
             
             return False
-        return dfs(adj,source,destination,visited)
+        
+        def bfs():
+            queue = deque([source])
+            visited = {source}
+            while queue:
+                node = queue.popleft()
+                if node == destination:
+                    return True
+                for neighbor in adj[node]:
+                    if neighbor not in visited:
+                        visited.add(neighbor)
+                        queue.append(neighbor)
+            return False
+        return bfs()
         
