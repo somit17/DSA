@@ -28,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0063-unique-paths-ii](https://github.com/somit17/DSA/tree/master/0063-unique-paths-ii) |
 | [0066-plus-one](https://github.com/somit17/DSA/tree/master/0066-plus-one) |
 | [0075-sort-colors](https://github.com/somit17/DSA/tree/master/0075-sort-colors) |
+| [0079-word-search](https://github.com/somit17/DSA/tree/master/0079-word-search) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/somit17/DSA/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0118-pascals-triangle](https://github.com/somit17/DSA/tree/master/0118-pascals-triangle) |
 | [0119-pascals-triangle-ii](https://github.com/somit17/DSA/tree/master/0119-pascals-triangle-ii) |
@@ -159,6 +160,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/somit17/DSA/tree/master/0020-valid-parentheses) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/somit17/DSA/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0058-length-of-last-word](https://github.com/somit17/DSA/tree/master/0058-length-of-last-word) |
+| [0079-word-search](https://github.com/somit17/DSA/tree/master/0079-word-search) |
 | [0125-valid-palindrome](https://github.com/somit17/DSA/tree/master/0125-valid-palindrome) |
 | [0151-reverse-words-in-a-string](https://github.com/somit17/DSA/tree/master/0151-reverse-words-in-a-string) |
 | [0242-valid-anagram](https://github.com/somit17/DSA/tree/master/0242-valid-anagram) |
@@ -209,6 +211,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0063-unique-paths-ii](https://github.com/somit17/DSA/tree/master/0063-unique-paths-ii) |
+| [0079-word-search](https://github.com/somit17/DSA/tree/master/0079-word-search) |
 | [0867-transpose-matrix](https://github.com/somit17/DSA/tree/master/0867-transpose-matrix) |
 ## Heap (Priority Queue)
 |  |
@@ -275,6 +278,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/somit17/DSA/tree/master/0079-word-search) |
 | [0094-binary-tree-inorder-traversal](https://github.com/somit17/DSA/tree/master/0094-binary-tree-inorder-traversal) |
 | [0100-same-tree](https://github.com/somit17/DSA/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/somit17/DSA/tree/master/0101-symmetric-tree) |
@@ -383,6 +387,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [0079-word-search](https://github.com/somit17/DSA/tree/master/0079-word-search) |
 | [0257-binary-tree-paths](https://github.com/somit17/DSA/tree/master/0257-binary-tree-paths) |
 ## Number Theory
 |  |
