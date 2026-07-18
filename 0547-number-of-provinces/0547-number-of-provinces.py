@@ -18,9 +18,22 @@ class Solution:
                 if not visited[neighbor] and isConnected[node][neighbor] == 1:
                     dfs_explore(neighbor)
 
+        def bfs_explore(start_node):
+            queue = deque([start_node])
+            visited[start_node] = True
+            
+            while queue:
+                current_node = queue.popleft()  # BFS: popleft, not pop
+                
+                # Check ALL neighbors (0 to n-1)
+                for neighbor in range(n):  
+                    if not visited[neighbor] and isConnected[current_node][neighbor] == 1:
+                        visited[neighbor] = True
+                        queue.append(neighbor)
+
         count = 0
         for i in range(n):
             if not visited[i]:
-                dfs_explore(i)
+                bfs_explore(i)
                 count+=1
         return count
