@@ -52,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0867-transpose-matrix](https://github.com/somit17/DSA/tree/master/0867-transpose-matrix) |
 | [0912-sort-an-array](https://github.com/somit17/DSA/tree/master/0912-sort-an-array) |
 | [0929-unique-email-addresses](https://github.com/somit17/DSA/tree/master/0929-unique-email-addresses) |
+| [0980-unique-paths-iii](https://github.com/somit17/DSA/tree/master/0980-unique-paths-iii) |
 | [1160-find-words-that-can-be-formed-by-characters](https://github.com/somit17/DSA/tree/master/1160-find-words-that-can-be-formed-by-characters) |
 | [1331-rank-transform-of-an-array](https://github.com/somit17/DSA/tree/master/1331-rank-transform-of-an-array) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/somit17/DSA/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
@@ -186,6 +187,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0222-count-complete-tree-nodes](https://github.com/somit17/DSA/tree/master/0222-count-complete-tree-nodes) |
 | [0268-missing-number](https://github.com/somit17/DSA/tree/master/0268-missing-number) |
 | [0389-find-the-difference](https://github.com/somit17/DSA/tree/master/0389-find-the-difference) |
+| [0980-unique-paths-iii](https://github.com/somit17/DSA/tree/master/0980-unique-paths-iii) |
 ## Counting
 |  |
 | ------- |
@@ -213,6 +215,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0063-unique-paths-ii](https://github.com/somit17/DSA/tree/master/0063-unique-paths-ii) |
 | [0079-word-search](https://github.com/somit17/DSA/tree/master/0079-word-search) |
 | [0867-transpose-matrix](https://github.com/somit17/DSA/tree/master/0867-transpose-matrix) |
+| [0980-unique-paths-iii](https://github.com/somit17/DSA/tree/master/0980-unique-paths-iii) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -389,6 +392,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0079-word-search](https://github.com/somit17/DSA/tree/master/0079-word-search) |
 | [0257-binary-tree-paths](https://github.com/somit17/DSA/tree/master/0257-binary-tree-paths) |
+| [0980-unique-paths-iii](https://github.com/somit17/DSA/tree/master/0980-unique-paths-iii) |
 ## Number Theory
 |  |
 | ------- |
