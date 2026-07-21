@@ -41,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/somit17/DSA/tree/master/0189-rotate-array) |
 | [0198-house-robber](https://github.com/somit17/DSA/tree/master/0198-house-robber) |
 | [0209-minimum-size-subarray-sum](https://github.com/somit17/DSA/tree/master/0209-minimum-size-subarray-sum) |
+| [0216-combination-sum-iii](https://github.com/somit17/DSA/tree/master/0216-combination-sum-iii) |
 | [0217-contains-duplicate](https://github.com/somit17/DSA/tree/master/0217-contains-duplicate) |
 | [0268-missing-number](https://github.com/somit17/DSA/tree/master/0268-missing-number) |
 | [0322-coin-change](https://github.com/somit17/DSA/tree/master/0322-coin-change) |
@@ -405,6 +406,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0077-combinations](https://github.com/somit17/DSA/tree/master/0077-combinations) |
 | [0079-word-search](https://github.com/somit17/DSA/tree/master/0079-word-search) |
 | [0131-palindrome-partitioning](https://github.com/somit17/DSA/tree/master/0131-palindrome-partitioning) |
+| [0216-combination-sum-iii](https://github.com/somit17/DSA/tree/master/0216-combination-sum-iii) |
 | [0257-binary-tree-paths](https://github.com/somit17/DSA/tree/master/0257-binary-tree-paths) |
 | [0491-non-decreasing-subsequences](https://github.com/somit17/DSA/tree/master/0491-non-decreasing-subsequences) |
 | [0980-unique-paths-iii](https://github.com/somit17/DSA/tree/master/0980-unique-paths-iii) |
