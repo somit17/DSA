@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0066-plus-one](https://github.com/somit17/DSA/tree/master/0066-plus-one) |
 | [0075-sort-colors](https://github.com/somit17/DSA/tree/master/0075-sort-colors) |
 | [0079-word-search](https://github.com/somit17/DSA/tree/master/0079-word-search) |
+| [0088-merge-sorted-array](https://github.com/somit17/DSA/tree/master/0088-merge-sorted-array) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/somit17/DSA/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0118-pascals-triangle](https://github.com/somit17/DSA/tree/master/0118-pascals-triangle) |
 | [0119-pascals-triangle-ii](https://github.com/somit17/DSA/tree/master/0119-pascals-triangle-ii) |
@@ -100,6 +101,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/somit17/DSA/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/somit17/DSA/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0075-sort-colors](https://github.com/somit17/DSA/tree/master/0075-sort-colors) |
+| [0088-merge-sorted-array](https://github.com/somit17/DSA/tree/master/0088-merge-sorted-array) |
 | [0125-valid-palindrome](https://github.com/somit17/DSA/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/somit17/DSA/tree/master/0141-linked-list-cycle) |
 | [0151-reverse-words-in-a-string](https://github.com/somit17/DSA/tree/master/0151-reverse-words-in-a-string) |
@@ -125,6 +127,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0015-3sum](https://github.com/somit17/DSA/tree/master/0015-3sum) |
 | [0075-sort-colors](https://github.com/somit17/DSA/tree/master/0075-sort-colors) |
+| [0088-merge-sorted-array](https://github.com/somit17/DSA/tree/master/0088-merge-sorted-array) |
 | [0169-majority-element](https://github.com/somit17/DSA/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/somit17/DSA/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/somit17/DSA/tree/master/0242-valid-anagram) |
