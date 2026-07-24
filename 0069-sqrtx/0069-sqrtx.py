@@ -1,17 +1,15 @@
 class Solution:
     def mySqrt(self, x: int) -> int:
-        if x==0:
+        if x ==0:
             return 0
-        left = 1
-        right = x
-        while left <= right:
-            mid = (left+right) // 2
+        l,r = 0,x
+        while l <=r :
+            mid = (l + r) // 2
             sq = mid * mid
-            if sq== x:
+            if  sq == x:
                 return mid
-            elif sq > x:
-                right=mid-1
+            elif sq < x:
+                l = mid + 1
             else:
-                left=mid + 1
-        return right
-        
+                r = mid -1
+        return r
