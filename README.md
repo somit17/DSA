@@ -124,6 +124,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0209-minimum-size-subarray-sum](https://github.com/somit17/DSA/tree/master/0209-minimum-size-subarray-sum) |
 | [0222-count-complete-tree-nodes](https://github.com/somit17/DSA/tree/master/0222-count-complete-tree-nodes) |
 | [0268-missing-number](https://github.com/somit17/DSA/tree/master/0268-missing-number) |
+| [0278-first-bad-version](https://github.com/somit17/DSA/tree/master/0278-first-bad-version) |
 | [0374-guess-number-higher-or-lower](https://github.com/somit17/DSA/tree/master/0374-guess-number-higher-or-lower) |
 | [0704-binary-search](https://github.com/somit17/DSA/tree/master/0704-binary-search) |
 ## Sorting
@@ -403,6 +404,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Interactive
 |  |
 | ------- |
+| [0278-first-bad-version](https://github.com/somit17/DSA/tree/master/0278-first-bad-version) |
 | [0374-guess-number-higher-or-lower](https://github.com/somit17/DSA/tree/master/0374-guess-number-higher-or-lower) |
 ## Merge Sort
 |  |
