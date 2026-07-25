@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0069-sqrtx](https://github.com/somit17/DSA/tree/master/0069-sqrtx) |
 | [0070-climbing-stairs](https://github.com/somit17/DSA/tree/master/0070-climbing-stairs) |
 | [0189-rotate-array](https://github.com/somit17/DSA/tree/master/0189-rotate-array) |
+| [0202-happy-number](https://github.com/somit17/DSA/tree/master/0202-happy-number) |
 | [0268-missing-number](https://github.com/somit17/DSA/tree/master/0268-missing-number) |
 | [0509-fibonacci-number](https://github.com/somit17/DSA/tree/master/0509-fibonacci-number) |
 | [1137-n-th-tribonacci-number](https://github.com/somit17/DSA/tree/master/1137-n-th-tribonacci-number) |
@@ -109,6 +110,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0160-intersection-of-two-linked-lists](https://github.com/somit17/DSA/tree/master/0160-intersection-of-two-linked-lists) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/somit17/DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0189-rotate-array](https://github.com/somit17/DSA/tree/master/0189-rotate-array) |
+| [0202-happy-number](https://github.com/somit17/DSA/tree/master/0202-happy-number) |
 | [0234-palindrome-linked-list](https://github.com/somit17/DSA/tree/master/0234-palindrome-linked-list) |
 | [0680-valid-palindrome-ii](https://github.com/somit17/DSA/tree/master/0680-valid-palindrome-ii) |
 | [0876-middle-of-the-linked-list](https://github.com/somit17/DSA/tree/master/0876-middle-of-the-linked-list) |
@@ -167,6 +169,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0142-linked-list-cycle-ii](https://github.com/somit17/DSA/tree/master/0142-linked-list-cycle-ii) |
 | [0160-intersection-of-two-linked-lists](https://github.com/somit17/DSA/tree/master/0160-intersection-of-two-linked-lists) |
 | [0169-majority-element](https://github.com/somit17/DSA/tree/master/0169-majority-element) |
+| [0202-happy-number](https://github.com/somit17/DSA/tree/master/0202-happy-number) |
 | [0217-contains-duplicate](https://github.com/somit17/DSA/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/somit17/DSA/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/somit17/DSA/tree/master/0268-missing-number) |
