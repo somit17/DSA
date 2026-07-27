@@ -15,7 +15,7 @@ class Solution:
         }
         result = []
         def backtrack(idx,comb):
-            if idx == len(digits):
+            if len(comb)==len(digits):
                 result.append("".join(comb))
                 return 
             digit = digits[idx]
@@ -23,6 +23,6 @@ class Solution:
             for char in chars:
                 comb.append(char)
                 backtrack(idx+1,comb)
-                comb.pop()
+                comb.pop() 
         backtrack(0,[])
-        return result 
+        return result
