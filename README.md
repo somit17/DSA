@@ -46,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/somit17/DSA/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/somit17/DSA/tree/master/0189-rotate-array) |
 | [0198-house-robber](https://github.com/somit17/DSA/tree/master/0198-house-robber) |
+| [0200-number-of-islands](https://github.com/somit17/DSA/tree/master/0200-number-of-islands) |
 | [0209-minimum-size-subarray-sum](https://github.com/somit17/DSA/tree/master/0209-minimum-size-subarray-sum) |
 | [0216-combination-sum-iii](https://github.com/somit17/DSA/tree/master/0216-combination-sum-iii) |
 | [0217-contains-duplicate](https://github.com/somit17/DSA/tree/master/0217-contains-duplicate) |
@@ -265,6 +266,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0063-unique-paths-ii](https://github.com/somit17/DSA/tree/master/0063-unique-paths-ii) |
 | [0079-word-search](https://github.com/somit17/DSA/tree/master/0079-word-search) |
+| [0200-number-of-islands](https://github.com/somit17/DSA/tree/master/0200-number-of-islands) |
 | [0867-transpose-matrix](https://github.com/somit17/DSA/tree/master/0867-transpose-matrix) |
 | [0980-unique-paths-iii](https://github.com/somit17/DSA/tree/master/0980-unique-paths-iii) |
 | [1219-path-with-maximum-gold](https://github.com/somit17/DSA/tree/master/1219-path-with-maximum-gold) |
@@ -361,6 +363,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/somit17/DSA/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0144-binary-tree-preorder-traversal](https://github.com/somit17/DSA/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/somit17/DSA/tree/master/0145-binary-tree-postorder-traversal) |
+| [0200-number-of-islands](https://github.com/somit17/DSA/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/somit17/DSA/tree/master/0207-course-schedule) |
 | [0226-invert-binary-tree](https://github.com/somit17/DSA/tree/master/0226-invert-binary-tree) |
 | [0257-binary-tree-paths](https://github.com/somit17/DSA/tree/master/0257-binary-tree-paths) |
@@ -406,6 +409,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0104-maximum-depth-of-binary-tree](https://github.com/somit17/DSA/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0111-minimum-depth-of-binary-tree](https://github.com/somit17/DSA/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/somit17/DSA/tree/master/0112-path-sum) |
+| [0200-number-of-islands](https://github.com/somit17/DSA/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/somit17/DSA/tree/master/0207-course-schedule) |
 | [0226-invert-binary-tree](https://github.com/somit17/DSA/tree/master/0226-invert-binary-tree) |
 | [0322-coin-change](https://github.com/somit17/DSA/tree/master/0322-coin-change) |
@@ -496,6 +500,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Union-Find
 |  |
 | ------- |
+| [0200-number-of-islands](https://github.com/somit17/DSA/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/somit17/DSA/tree/master/0547-number-of-provinces) |
 | [1971-find-if-path-exists-in-graph](https://github.com/somit17/DSA/tree/master/1971-find-if-path-exists-in-graph) |
 ## Topological Sort
