@@ -57,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/somit17/DSA/tree/master/0217-contains-duplicate) |
 | [0239-sliding-window-maximum](https://github.com/somit17/DSA/tree/master/0239-sliding-window-maximum) |
 | [0268-missing-number](https://github.com/somit17/DSA/tree/master/0268-missing-number) |
+| [0283-move-zeroes](https://github.com/somit17/DSA/tree/master/0283-move-zeroes) |
 | [0322-coin-change](https://github.com/somit17/DSA/tree/master/0322-coin-change) |
 | [0347-top-k-frequent-elements](https://github.com/somit17/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/somit17/DSA/tree/master/0350-intersection-of-two-arrays-ii) |
@@ -130,6 +131,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/somit17/DSA/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/somit17/DSA/tree/master/0202-happy-number) |
 | [0234-palindrome-linked-list](https://github.com/somit17/DSA/tree/master/0234-palindrome-linked-list) |
+| [0283-move-zeroes](https://github.com/somit17/DSA/tree/master/0283-move-zeroes) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/somit17/DSA/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0680-valid-palindrome-ii](https://github.com/somit17/DSA/tree/master/0680-valid-palindrome-ii) |
 | [0876-middle-of-the-linked-list](https://github.com/somit17/DSA/tree/master/0876-middle-of-the-linked-list) |
