@@ -1,17 +1,16 @@
 class Solution:
     def isHappy(self, n: int) -> bool:
-        hash_set = set()
-        def get_sq_digits(n):
+        def get_sq_digits(num):
             total = 0
-            while n > 0:
-                digit = n % 10
+            while num > 0:
+                digit = num % 10
                 total += digit ** 2
-                n = n //10
+                num = num // 10
             return total
+        hash_set = set()
         while n > 1:
             if n in hash_set:
                 return False
             hash_set.add(n)
             n = get_sq_digits(n)
-        
         return True
