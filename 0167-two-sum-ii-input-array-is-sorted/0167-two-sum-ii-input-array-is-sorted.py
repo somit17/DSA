@@ -1,8 +1,9 @@
 class Solution:
     def twoSum(self, numbers: List[int], target: int) -> List[int]:
-        compliments = {}
-        for idx,n in enumerate(numbers):
-            other_num = target - n
-            if other_num in compliments:
-                return [compliments[other_num],idx+1]
-            compliments[n] = idx+1
+        seen  = {}
+        for idx,num in enumerate(numbers):
+            compliment = target - num
+            if compliment in seen:
+                return [seen[compliment],idx+1]
+            seen[num]= idx + 1
+        
