@@ -1,21 +1,16 @@
 class Solution:
     def longestPalindrome(self, s: str) -> str:
-        if not s:
-            return ""
-        
-        def helper_function(left,right):
-            while left >= 0 and right < len(s) and s[left]==s[right]:
-                left-=1
-                right+=1
-            return s[left+1:right]
         result = ""
+        def expand(l,r):
+            while l>=0 and r < len(s) and s[l]==s[r]:
+                l-=1
+                r+=1
+            return s[l+1:r]
+        #Palindrome logic move from center
         for i in range(len(s)):
-            #Odd
-            palindrome_odd = helper_function(i,i)
-            #Even
-            palindrome_even = helper_function(i,i+1)
-
-            for palindrome in [palindrome_odd,palindrome_even]:
-                if len(palindrome)>len(result):
-                    result = palindrome
+            even = expand(i,i)
+            odd = expand(i,i+1)
+            best = even if len(even) >= len(odd) else odd
+            if len(best) > len(result):
+                result = best
         return result
