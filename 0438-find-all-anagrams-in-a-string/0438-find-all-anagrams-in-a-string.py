@@ -1,15 +1,17 @@
 class Solution:
     def findAnagrams(self, s: str, p: str) -> List[int]:
         result = []
-        window = []
-        counter_p = Counter(p)
-        p_len = len(p)
-        for i in range(len(s)):
-            window.append(s[i])
-            if len(window) > p_len:
-                window.pop(0)
-            if len(window) == p_len and Counter(window)==counter_p:
-                result.append(i - p_len + 1)
-        print(result)
+        start = 0
+        k = len(p)
+        p_counter = Counter(p)
+        window_counter = Counter(s[:k])
+        if window_counter == p_counter:
+            result.append(start)
+        #print(f'WINDOW - {window_set}')
+        for end in range(0,len(s) - k):
+            window_counter[s[end]]-=1
+            window_counter[s[end + k]]+=1
+            if window_counter == p_counter:
+                result.append(end+1) 
         return result
         
