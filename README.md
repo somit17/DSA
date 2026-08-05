@@ -187,6 +187,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0567-permutation-in-string](https://github.com/somit17/DSA/tree/master/0567-permutation-in-string) |
 | [0643-maximum-average-subarray-i](https://github.com/somit17/DSA/tree/master/0643-maximum-average-subarray-i) |
 | [0904-fruit-into-baskets](https://github.com/somit17/DSA/tree/master/0904-fruit-into-baskets) |
+| [1358-number-of-substrings-containing-all-three-characters](https://github.com/somit17/DSA/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [2379-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/somit17/DSA/tree/master/2379-minimum-recolors-to-get-k-consecutive-black-blocks) |
 ## Prefix Sum
 |  |
@@ -226,6 +227,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1160-find-words-that-can-be-formed-by-characters](https://github.com/somit17/DSA/tree/master/1160-find-words-that-can-be-formed-by-characters) |
 | [1189-maximum-number-of-balloons](https://github.com/somit17/DSA/tree/master/1189-maximum-number-of-balloons) |
 | [1331-rank-transform-of-an-array](https://github.com/somit17/DSA/tree/master/1331-rank-transform-of-an-array) |
+| [1358-number-of-substrings-containing-all-three-characters](https://github.com/somit17/DSA/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 ## String
 |  |
 | ------- |
@@ -255,6 +257,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0929-unique-email-addresses](https://github.com/somit17/DSA/tree/master/0929-unique-email-addresses) |
 | [1160-find-words-that-can-be-formed-by-characters](https://github.com/somit17/DSA/tree/master/1160-find-words-that-can-be-formed-by-characters) |
 | [1189-maximum-number-of-balloons](https://github.com/somit17/DSA/tree/master/1189-maximum-number-of-balloons) |
+| [1358-number-of-substrings-containing-all-three-characters](https://github.com/somit17/DSA/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1768-merge-strings-alternately](https://github.com/somit17/DSA/tree/master/1768-merge-strings-alternately) |
 | [1903-largest-odd-number-in-string](https://github.com/somit17/DSA/tree/master/1903-largest-odd-number-in-string) |
 | [1910-remove-all-occurrences-of-a-substring](https://github.com/somit17/DSA/tree/master/1910-remove-all-occurrences-of-a-substring) |
