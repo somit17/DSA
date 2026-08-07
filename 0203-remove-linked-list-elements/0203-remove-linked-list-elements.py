@@ -17,4 +17,4 @@ class Solution:
                 prev = current
             current = current.next
         return dummyNode.next
-        
+            
