@@ -6,28 +6,16 @@
 #         self.right = right
 class Solution:
     def isBalanced(self, root: Optional[TreeNode]) -> bool:
-        def height(root):
-            if not root:
+        def dfs(root):
+            if root is None:
                 return 0
-            height = 0
-            queue = deque([root])
-            while queue:
-                current_level = len(queue)
-                for i in range(current_level):
-                    node = queue.popleft()
-                    if node.left:
-                        queue.append(node.left)
-                    if node.right:
-                        queue.append(node.right)
-                height+=1
-            return height
-        def helper(root):
-            if not root:
-                return True
-            left_subtree = height(root.left)
-            right_subtree = height(root.right)
-            if abs(left_subtree - right_subtree) > 1:
-                return False
-            return helper(root.left) and helper(root.right)
-        return helper(root)
-        
+            left_balanced = dfs(root.left)
+            if left_balanced == -1:
+                return -1
+            right_balanced = dfs(root.right)
+            if right_balanced == -1:
+                return -1
+            if abs(right_balanced - left_balanced) > 1:
+                return -1
+            return max(left_balanced,right_balanced) + 1
+        return dfs(root)!=-1
