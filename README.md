@@ -136,6 +136,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0202-happy-number](https://github.com/somit17/DSA/tree/master/0202-happy-number) |
 | [0234-palindrome-linked-list](https://github.com/somit17/DSA/tree/master/0234-palindrome-linked-list) |
 | [0283-move-zeroes](https://github.com/somit17/DSA/tree/master/0283-move-zeroes) |
+| [0345-reverse-vowels-of-a-string](https://github.com/somit17/DSA/tree/master/0345-reverse-vowels-of-a-string) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/somit17/DSA/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0567-permutation-in-string](https://github.com/somit17/DSA/tree/master/0567-permutation-in-string) |
 | [0633-sum-of-square-numbers](https://github.com/somit17/DSA/tree/master/0633-sum-of-square-numbers) |
@@ -255,6 +256,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/somit17/DSA/tree/master/0242-valid-anagram) |
 | [0257-binary-tree-paths](https://github.com/somit17/DSA/tree/master/0257-binary-tree-paths) |
 | [0290-word-pattern](https://github.com/somit17/DSA/tree/master/0290-word-pattern) |
+| [0345-reverse-vowels-of-a-string](https://github.com/somit17/DSA/tree/master/0345-reverse-vowels-of-a-string) |
 | [0383-ransom-note](https://github.com/somit17/DSA/tree/master/0383-ransom-note) |
 | [0387-first-unique-character-in-a-string](https://github.com/somit17/DSA/tree/master/0387-first-unique-character-in-a-string) |
 | [0389-find-the-difference](https://github.com/somit17/DSA/tree/master/0389-find-the-difference) |
