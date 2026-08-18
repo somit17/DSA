@@ -1,21 +1,18 @@
 class Solution:
     def permute(self, nums: List[int]) -> List[List[int]]:
-        n = len(nums)
-        used = [False] * n
-        result = []
-        def backtrack(perm):
-            if len(perm) == n:
-                result.append(perm[:])
-                return 
-            for i in range(n):
-                if used[i]:
-                    continue 
-                perm.append(nums[i])
-                used[i] = True
-                backtrack(perm)
-                perm.pop()
-                used[i] = False
 
-        backtrack([])
-        return result
+
+        #Base case
+        if len(nums) == 0:
+            return [ [] ]
+
+        first = nums[0]
+        full_perm = []
+        for perm in self.permute(nums[1:]): #[[2,3] [3,2]]. # [[1,2,3] ,[2,1,3],[2,3,1]] [3,2]]
+            for i in range(len(perm) + 1):
+                full_perm.append(perm[:i] + [first] + perm[i:])
+        
+        return full_perm
+
+
         
