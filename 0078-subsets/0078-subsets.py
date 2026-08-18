@@ -1,12 +1,18 @@
 class Solution:
     def subsets(self, nums: List[int]) -> List[List[int]]:
-        result = []
-        def backtrack(idx,subset):
-            result.append(subset[:])
-            for i in range(idx,len(nums)):
-                subset.append(nums[i])
-                backtrack(i+1,subset)
-                subset.pop()
-        backtrack(0,[])
-        return result
+
+        if len(nums) == 0:
+            return [ [] ] #[[]]
+
+        first_element = nums[0] # 1
+        subs_without_first = self.subsets(nums[1:]) # [[]]
+        subs_with_first = []
+
+        for sub in subs_without_first:
+            subs_with_first.append([first_element,*sub])  
+
+        return subs_without_first + subs_with_first
+
+
+#[1]
         
