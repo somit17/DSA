@@ -451,6 +451,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/somit17/DSA/tree/master/0547-number-of-provinces) |
 | [0563-binary-tree-tilt](https://github.com/somit17/DSA/tree/master/0563-binary-tree-tilt) |
 | [0617-merge-two-binary-trees](https://github.com/somit17/DSA/tree/master/0617-merge-two-binary-trees) |
+| [0684-redundant-connection](https://github.com/somit17/DSA/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/somit17/DSA/tree/master/0695-max-area-of-island) |
 | [0797-all-paths-from-source-to-target](https://github.com/somit17/DSA/tree/master/0797-all-paths-from-source-to-target) |
 | [1971-find-if-path-exists-in-graph](https://github.com/somit17/DSA/tree/master/1971-find-if-path-exists-in-graph) |
@@ -502,6 +503,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0513-find-bottom-left-tree-value](https://github.com/somit17/DSA/tree/master/0513-find-bottom-left-tree-value) |
 | [0547-number-of-provinces](https://github.com/somit17/DSA/tree/master/0547-number-of-provinces) |
 | [0617-merge-two-binary-trees](https://github.com/somit17/DSA/tree/master/0617-merge-two-binary-trees) |
+| [0684-redundant-connection](https://github.com/somit17/DSA/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/somit17/DSA/tree/master/0695-max-area-of-island) |
 | [0797-all-paths-from-source-to-target](https://github.com/somit17/DSA/tree/master/0797-all-paths-from-source-to-target) |
 | [1971-find-if-path-exists-in-graph](https://github.com/somit17/DSA/tree/master/1971-find-if-path-exists-in-graph) |
@@ -590,6 +592,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0207-course-schedule](https://github.com/somit17/DSA/tree/master/0207-course-schedule) |
 | [0547-number-of-provinces](https://github.com/somit17/DSA/tree/master/0547-number-of-provinces) |
+| [0684-redundant-connection](https://github.com/somit17/DSA/tree/master/0684-redundant-connection) |
 | [0797-all-paths-from-source-to-target](https://github.com/somit17/DSA/tree/master/0797-all-paths-from-source-to-target) |
 | [1791-find-center-of-star-graph](https://github.com/somit17/DSA/tree/master/1791-find-center-of-star-graph) |
 | [1971-find-if-path-exists-in-graph](https://github.com/somit17/DSA/tree/master/1971-find-if-path-exists-in-graph) |
@@ -600,6 +603,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0128-longest-consecutive-sequence](https://github.com/somit17/DSA/tree/master/0128-longest-consecutive-sequence) |
 | [0200-number-of-islands](https://github.com/somit17/DSA/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/somit17/DSA/tree/master/0547-number-of-provinces) |
+| [0684-redundant-connection](https://github.com/somit17/DSA/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/somit17/DSA/tree/master/0695-max-area-of-island) |
 | [1971-find-if-path-exists-in-graph](https://github.com/somit17/DSA/tree/master/1971-find-if-path-exists-in-graph) |
 ## Topological Sort
