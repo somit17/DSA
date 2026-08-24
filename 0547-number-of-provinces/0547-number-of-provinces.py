@@ -1,39 +1,42 @@
 class Solution:
     def findCircleNum(self, isConnected: List[List[int]]) -> int:
         n = len(isConnected)
-        visited = [False] * n
-        # adj = {i: [] for i in range(n)}
-        
-        # for i in range(n):
-        #     for j in range(n):
-        #         if isConnected[i][j] == 1 and i != j:
-        #             adj[i].append(j)
+        edges = []
+        for row in range(n):
+            for col in range(row + 1,n):
+                if isConnected[row][col] == 1:
+                    edges.append((row,col))
+        #print(graph)
+        roots = [i for i in range(n)]
+        sizes = [1 for i in range(n)]
 
-        def dfs_explore(node):
-            if visited[node]:
-                return 
-            visited[node] = True
-            
-            for neighbor in range(n):
-                if not visited[neighbor] and isConnected[node][neighbor] == 1:
-                    dfs_explore(neighbor)
+        for edge in edges:
+            node_a,node_b = edge
+            self.union(roots,sizes,node_a,node_b)
 
-        def bfs_explore(start_node):
-            queue = deque([start_node])
-            visited[start_node] = True
-            
-            while queue:
-                current_node = queue.popleft()  # BFS: popleft, not pop
-                
-                # Check ALL neighbors (0 to n-1)
-                for neighbor in range(n):  
-                    if not visited[neighbor] and isConnected[current_node][neighbor] == 1:
-                        visited[neighbor] = True
-                        queue.append(neighbor)
 
         count = 0
-        for i in range(n):
-            if not visited[i]:
-                bfs_explore(i)
-                count+=1
+        for i in range(0, n):
+            if roots[i] == i:
+                count += 1
         return count
+
+    def union(self,roots,sizes,node_a,node_b):
+        root_a = self.find(roots,node_a)
+        root_b = self.find(roots,node_b)
+        if root_a == root_b:
+            return 
+
+        if sizes[root_a] > sizes[root_b]:
+            roots[root_b] = root_a
+            sizes[root_a] += sizes[root_b]
+        else:
+            roots[root_a] = root_b
+            sizes[root_b] += sizes[root_a]
+
+    def find(self,roots,node):
+        if roots[node] == node:
+            return node
+        found = self.find(roots,roots[node])
+        return found
+
