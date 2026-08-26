@@ -1,24 +1,25 @@
 class Solution:
-    def palindrome(self,s):
-        return s == s[::-1]
     def partition(self, s: str) -> List[List[str]]:
-        self.s = s
-        self.result =[]
-        self.n = len(s)
-        self.backtrack(0,[])
+        self.result = []
+        self.backtrack(s,0,[])
         return self.result
-    def backtrack(self,index,current_partition):
-        if index == self.n:
-            self.result.append(current_partition[:])
-            return
-        #Try all possible solutions
-        for end in range(index,self.n):
-            substring = self.s[index:end+1]
-            if self.palindrome(substring):
-                current_partition.append(substring)
-                self.backtrack(end+1,current_partition)
-                current_partition.pop()
 
-                
 
+    def backtrack(self,s,start,current):
+
+        if start == len(s):
+            self.result.append(current[:])
+
+        for end in range(start,len(s)):
+            if self.is_palindrome(s,start,end):
+                current.append(s[start:end+1])
+                self.backtrack(s,end+1,current)
+                current.pop()
         
+    def is_palindrome(self,s,start,end):
+        while start < end:
+            if s[start]!=s[end]:
+                return False
+            start+=1
+            end-=1
+        return True
