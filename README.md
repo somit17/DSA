@@ -86,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/somit17/DSA/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1732-find-the-highest-altitude](https://github.com/somit17/DSA/tree/master/1732-find-the-highest-altitude) |
 | [1833-maximum-ice-cream-bars](https://github.com/somit17/DSA/tree/master/1833-maximum-ice-cream-bars) |
+| [1848-minimum-distance-to-the-target-element](https://github.com/somit17/DSA/tree/master/1848-minimum-distance-to-the-target-element) |
 | [1929-concatenation-of-array](https://github.com/somit17/DSA/tree/master/1929-concatenation-of-array) |
 | [2678-number-of-senior-citizens](https://github.com/somit17/DSA/tree/master/2678-number-of-senior-citizens) |
 | [3898-find-the-degree-of-each-vertex](https://github.com/somit17/DSA/tree/master/3898-find-the-degree-of-each-vertex) |
