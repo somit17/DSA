@@ -1,31 +1,23 @@
 class Solution:
     def permute(self, nums: List[int]) -> List[List[int]]:
-        if len(nums) == 0:
-            return [[]]
+        self.result = []
+        self.used = set()
+        self.explore(nums,[])
+        return self.result
+    
+    def explore(self,nums,perm):
+        if len(perm) == len(nums):
+            self.result.append(perm[:])
+            return 
 
-        first = nums[0] #1
-        full_perms = []
-        for perm in self.permute(nums[1:]):
-            for i in range(len(perm) + 1):
-                full_perms.append(perm[i:] + [first] + perm[:i])
-
-        return full_perms
-
-
-
-# [
-#     [2,3],
-#     [3,2]
-# ]
-
-# [
-#     [1,2,3]
-#     [2,1,3]
-#     [2,3,1]
-#     [1,3,2]
-#     [3,1,2]
-#     [3,2,1]
-# ]
-
-        self.permute(nums[1:])
-        
+        for i in range(0,len(nums)):
+            num = nums[i]
+            if num not in self.used:
+                #Take 
+                self.used.add(num)
+                perm.append(num)
+                #Explore
+                self.explore(nums,perm)
+                #Reject
+                perm.pop()
+                self.used.remove(num)
