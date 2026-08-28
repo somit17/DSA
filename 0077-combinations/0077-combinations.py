@@ -1,18 +1,18 @@
 class Solution:
     def combine(self, n: int, k: int) -> List[List[int]]:
-        self.k = k
-        self.n = n
         self.result = []
-        
-        self.backtrack(1,[])
-        
-        return self.result 
-        
-    def backtrack(self,index,combo):
-        if len(combo) == self.k:
-            self.result.append(combo[:])
+        self.explore(1,n,k,[])
+        return self.result
+
+    def explore(self,start,n,k,comb):
+        if k == 0:
+            self.result.append(comb[:])
             return 
-        for num in range(index,self.n + 1):
-            combo.append(num)
-            self.backtrack(num+1,combo)
-            combo.pop()
+        if start > n:
+            return
+        #Take element
+        comb.append(start)
+        self.explore(start+1,n,k-1,comb)
+        #Skip element
+        comb.pop()
+        self.explore(start+1,n,k,comb)
