@@ -292,6 +292,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2264-largest-3-same-digit-number-in-string](https://github.com/somit17/DSA/tree/master/2264-largest-3-same-digit-number-in-string) |
 | [2379-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/somit17/DSA/tree/master/2379-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [2678-number-of-senior-citizens](https://github.com/somit17/DSA/tree/master/2678-number-of-senior-citizens) |
+| [3110-score-of-a-string](https://github.com/somit17/DSA/tree/master/3110-score-of-a-string) |
 ## Trie
 |  |
 | ------- |
