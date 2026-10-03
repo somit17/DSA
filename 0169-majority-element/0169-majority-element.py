@@ -1,8 +1,12 @@
 class Solution:
-    def majorityElement(self, nums: List[int]) -> int:
-        hash_num = Counter(nums)
+    def majorityElement(self, nums: list[int]) -> int:
         n = len(nums)
-        for k,v in hash_num.items():
+        count = Counter(nums)
+
+        for k,v in count.items():
             if v > n // 2:
                 return k
+        
         return -1
+
+        
