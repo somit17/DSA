@@ -90,6 +90,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1219-path-with-maximum-gold](https://github.com/somit17/DSA/tree/master/1219-path-with-maximum-gold) |
 | [1331-rank-transform-of-an-array](https://github.com/somit17/DSA/tree/master/1331-rank-transform-of-an-array) |
 | [1408-string-matching-in-an-array](https://github.com/somit17/DSA/tree/master/1408-string-matching-in-an-array) |
+| [1436-destination-city](https://github.com/somit17/DSA/tree/master/1436-destination-city) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/somit17/DSA/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1732-find-the-highest-altitude](https://github.com/somit17/DSA/tree/master/1732-find-the-highest-altitude) |
 | [1800-maximum-ascending-subarray-sum](https://github.com/somit17/DSA/tree/master/1800-maximum-ascending-subarray-sum) |
@@ -256,6 +257,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1189-maximum-number-of-balloons](https://github.com/somit17/DSA/tree/master/1189-maximum-number-of-balloons) |
 | [1331-rank-transform-of-an-array](https://github.com/somit17/DSA/tree/master/1331-rank-transform-of-an-array) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/somit17/DSA/tree/master/1358-number-of-substrings-containing-all-three-characters) |
+| [1436-destination-city](https://github.com/somit17/DSA/tree/master/1436-destination-city) |
 | [3442-maximum-difference-between-even-and-odd-frequency-i](https://github.com/somit17/DSA/tree/master/3442-maximum-difference-between-even-and-odd-frequency-i) |
 ## String
 |  |
@@ -292,6 +294,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1189-maximum-number-of-balloons](https://github.com/somit17/DSA/tree/master/1189-maximum-number-of-balloons) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/somit17/DSA/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1408-string-matching-in-an-array](https://github.com/somit17/DSA/tree/master/1408-string-matching-in-an-array) |
+| [1436-destination-city](https://github.com/somit17/DSA/tree/master/1436-destination-city) |
 | [1768-merge-strings-alternately](https://github.com/somit17/DSA/tree/master/1768-merge-strings-alternately) |
 | [1903-largest-odd-number-in-string](https://github.com/somit17/DSA/tree/master/1903-largest-odd-number-in-string) |
 | [1910-remove-all-occurrences-of-a-substring](https://github.com/somit17/DSA/tree/master/1910-remove-all-occurrences-of-a-substring) |
