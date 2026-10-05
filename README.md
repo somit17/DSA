@@ -67,6 +67,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0322-coin-change](https://github.com/somit17/DSA/tree/master/0322-coin-change) |
 | [0347-top-k-frequent-elements](https://github.com/somit17/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/somit17/DSA/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0448-find-all-numbers-disappeared-in-an-array](https://github.com/somit17/DSA/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0463-island-perimeter](https://github.com/somit17/DSA/tree/master/0463-island-perimeter) |
 | [0485-max-consecutive-ones](https://github.com/somit17/DSA/tree/master/0485-max-consecutive-ones) |
 | [0491-non-decreasing-subsequences](https://github.com/somit17/DSA/tree/master/0491-non-decreasing-subsequences) |
@@ -247,6 +248,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0389-find-the-difference](https://github.com/somit17/DSA/tree/master/0389-find-the-difference) |
 | [0424-longest-repeating-character-replacement](https://github.com/somit17/DSA/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/somit17/DSA/tree/master/0438-find-all-anagrams-in-a-string) |
+| [0448-find-all-numbers-disappeared-in-an-array](https://github.com/somit17/DSA/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0491-non-decreasing-subsequences](https://github.com/somit17/DSA/tree/master/0491-non-decreasing-subsequences) |
 | [0567-permutation-in-string](https://github.com/somit17/DSA/tree/master/0567-permutation-in-string) |
 | [0706-design-hashmap](https://github.com/somit17/DSA/tree/master/0706-design-hashmap) |
