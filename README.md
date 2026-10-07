@@ -101,6 +101,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1848-minimum-distance-to-the-target-element](https://github.com/somit17/DSA/tree/master/1848-minimum-distance-to-the-target-element) |
 | [1929-concatenation-of-array](https://github.com/somit17/DSA/tree/master/1929-concatenation-of-array) |
 | [2006-count-number-of-pairs-with-absolute-difference-k](https://github.com/somit17/DSA/tree/master/2006-count-number-of-pairs-with-absolute-difference-k) |
+| [2176-count-equal-and-divisible-pairs-in-an-array](https://github.com/somit17/DSA/tree/master/2176-count-equal-and-divisible-pairs-in-an-array) |
 | [2418-sort-the-people](https://github.com/somit17/DSA/tree/master/2418-sort-the-people) |
 | [2678-number-of-senior-citizens](https://github.com/somit17/DSA/tree/master/2678-number-of-senior-citizens) |
 | [3898-find-the-degree-of-each-vertex](https://github.com/somit17/DSA/tree/master/3898-find-the-degree-of-each-vertex) |
