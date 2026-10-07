@@ -75,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0682-baseball-game](https://github.com/somit17/DSA/tree/master/0682-baseball-game) |
 | [0695-max-area-of-island](https://github.com/somit17/DSA/tree/master/0695-max-area-of-island) |
 | [0704-binary-search](https://github.com/somit17/DSA/tree/master/0704-binary-search) |
+| [0705-design-hashset](https://github.com/somit17/DSA/tree/master/0705-design-hashset) |
 | [0706-design-hashmap](https://github.com/somit17/DSA/tree/master/0706-design-hashmap) |
 | [0724-find-pivot-index](https://github.com/somit17/DSA/tree/master/0724-find-pivot-index) |
 | [0735-asteroid-collision](https://github.com/somit17/DSA/tree/master/0735-asteroid-collision) |
@@ -257,6 +258,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/somit17/DSA/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0491-non-decreasing-subsequences](https://github.com/somit17/DSA/tree/master/0491-non-decreasing-subsequences) |
 | [0567-permutation-in-string](https://github.com/somit17/DSA/tree/master/0567-permutation-in-string) |
+| [0705-design-hashset](https://github.com/somit17/DSA/tree/master/0705-design-hashset) |
 | [0706-design-hashmap](https://github.com/somit17/DSA/tree/master/0706-design-hashmap) |
 | [0904-fruit-into-baskets](https://github.com/somit17/DSA/tree/master/0904-fruit-into-baskets) |
 | [0929-unique-email-addresses](https://github.com/somit17/DSA/tree/master/0929-unique-email-addresses) |
@@ -409,6 +411,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0234-palindrome-linked-list](https://github.com/somit17/DSA/tree/master/0234-palindrome-linked-list) |
 | [0328-odd-even-linked-list](https://github.com/somit17/DSA/tree/master/0328-odd-even-linked-list) |
 | [0430-flatten-a-multilevel-doubly-linked-list](https://github.com/somit17/DSA/tree/master/0430-flatten-a-multilevel-doubly-linked-list) |
+| [0705-design-hashset](https://github.com/somit17/DSA/tree/master/0705-design-hashset) |
 | [0706-design-hashmap](https://github.com/somit17/DSA/tree/master/0706-design-hashmap) |
 | [0876-middle-of-the-linked-list](https://github.com/somit17/DSA/tree/master/0876-middle-of-the-linked-list) |
 | [1721-swapping-nodes-in-a-linked-list](https://github.com/somit17/DSA/tree/master/1721-swapping-nodes-in-a-linked-list) |
@@ -585,6 +588,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0155-min-stack](https://github.com/somit17/DSA/tree/master/0155-min-stack) |
 | [0225-implement-stack-using-queues](https://github.com/somit17/DSA/tree/master/0225-implement-stack-using-queues) |
+| [0705-design-hashset](https://github.com/somit17/DSA/tree/master/0705-design-hashset) |
 | [0706-design-hashmap](https://github.com/somit17/DSA/tree/master/0706-design-hashmap) |
 ## Queue
 |  |
@@ -687,6 +691,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Function
 |  |
 | ------- |
+| [0705-design-hashset](https://github.com/somit17/DSA/tree/master/0705-design-hashset) |
 | [0706-design-hashmap](https://github.com/somit17/DSA/tree/master/0706-design-hashmap) |
 ## Quicksort
 |  |
