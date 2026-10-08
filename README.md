@@ -697,6 +697,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0056-merge-intervals](https://github.com/somit17/DSA/tree/master/0056-merge-intervals) |
+| [0075-sort-colors](https://github.com/somit17/DSA/tree/master/0075-sort-colors) |
 ## Doubly-Linked List
 |  |
 | ------- |
@@ -705,4 +706,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/somit17/DSA/tree/master/0169-majority-element) |
+## Bubble Sort
+|  |
+| ------- |
+| [0075-sort-colors](https://github.com/somit17/DSA/tree/master/0075-sort-colors) |
 <!---LeetCode Topics End-->
