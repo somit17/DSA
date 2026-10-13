@@ -1,17 +1,22 @@
+from collections import Counter
 class Solution:
-    def findAnagrams(self, s: str, p: str) -> List[int]:
-        result = []
-        start = 0
+    def findAnagrams(self, s: str, p: str) -> list[int]:
+        anagram_map = Counter(p)
         k = len(p)
-        p_counter = Counter(p)
-        window_counter = Counter(s[:k])
-        if window_counter == p_counter:
+        start = 0 
+        result = []
+        s_map = Counter(s[:k])
+        if s_map == anagram_map:
             result.append(start)
-        #print(f'WINDOW - {window_set}')
-        for end in range(0,len(s) - k):
-            window_counter[s[end]]-=1
-            window_counter[s[end + k]]+=1
-            if window_counter == p_counter:
-                result.append(end+1) 
+        
+        for end in range(0,len(s)-k):
+            trailing_char = s[end]
+            leading_char = s[end + k]
+            s_map[trailing_char]-=1
+            s_map[leading_char]+=1
+            if anagram_map == s_map:
+                result.append(end+1)
+
         return result
+
         
