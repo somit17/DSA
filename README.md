@@ -105,6 +105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2006-count-number-of-pairs-with-absolute-difference-k](https://github.com/somit17/DSA/tree/master/2006-count-number-of-pairs-with-absolute-difference-k) |
 | [2176-count-equal-and-divisible-pairs-in-an-array](https://github.com/somit17/DSA/tree/master/2176-count-equal-and-divisible-pairs-in-an-array) |
 | [2418-sort-the-people](https://github.com/somit17/DSA/tree/master/2418-sort-the-people) |
+| [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/somit17/DSA/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2678-number-of-senior-citizens](https://github.com/somit17/DSA/tree/master/2678-number-of-senior-citizens) |
 | [3898-find-the-degree-of-each-vertex](https://github.com/somit17/DSA/tree/master/3898-find-the-degree-of-each-vertex) |
 ## Divide and Conquer
@@ -223,6 +224,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1004-max-consecutive-ones-iii](https://github.com/somit17/DSA/tree/master/1004-max-consecutive-ones-iii) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/somit17/DSA/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [2379-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/somit17/DSA/tree/master/2379-minimum-recolors-to-get-k-consecutive-black-blocks) |
+| [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/somit17/DSA/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -275,6 +277,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1684-count-the-number-of-consistent-strings](https://github.com/somit17/DSA/tree/master/1684-count-the-number-of-consistent-strings) |
 | [2006-count-number-of-pairs-with-absolute-difference-k](https://github.com/somit17/DSA/tree/master/2006-count-number-of-pairs-with-absolute-difference-k) |
 | [2418-sort-the-people](https://github.com/somit17/DSA/tree/master/2418-sort-the-people) |
+| [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/somit17/DSA/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [3442-maximum-difference-between-even-and-odd-frequency-i](https://github.com/somit17/DSA/tree/master/3442-maximum-difference-between-even-and-odd-frequency-i) |
 ## String
 |  |
