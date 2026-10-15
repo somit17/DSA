@@ -12,8 +12,8 @@ class Solution:
                     stack.append(2 * num)
 
             elif operation == '+':
-                num1 = stack[-1] if stack and len(stack) > 0 else 0
-                num2 = stack[-2] if stack and len(stack) > 0 else 0
+                num1 = stack[-1] if stack else 0
+                num2 = stack[-2] if stack else 0
                 stack.append(num1+num2)
 
             else:
