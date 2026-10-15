@@ -3,11 +3,11 @@ class Solution:
         stack = []
         for operation in operations:
             if operation == 'C':
-                if stack and len(stack) > 0:
+                if stack:
                     stack.pop()
 
             elif operation == 'D':
-                if stack and len(stack) > 0:
+                if stack:
                     num = stack[-1]
                     stack.append(2 * num)
 
