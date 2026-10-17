@@ -305,6 +305,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0383-ransom-note](https://github.com/somit17/DSA/tree/master/0383-ransom-note) |
 | [0387-first-unique-character-in-a-string](https://github.com/somit17/DSA/tree/master/0387-first-unique-character-in-a-string) |
 | [0389-find-the-difference](https://github.com/somit17/DSA/tree/master/0389-find-the-difference) |
+| [0394-decode-string](https://github.com/somit17/DSA/tree/master/0394-decode-string) |
 | [0424-longest-repeating-character-replacement](https://github.com/somit17/DSA/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/somit17/DSA/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0567-permutation-in-string](https://github.com/somit17/DSA/tree/master/0567-permutation-in-string) |
@@ -434,6 +435,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0203-remove-linked-list-elements](https://github.com/somit17/DSA/tree/master/0203-remove-linked-list-elements) |
 | [0206-reverse-linked-list](https://github.com/somit17/DSA/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/somit17/DSA/tree/master/0234-palindrome-linked-list) |
+| [0394-decode-string](https://github.com/somit17/DSA/tree/master/0394-decode-string) |
 | [0509-fibonacci-number](https://github.com/somit17/DSA/tree/master/0509-fibonacci-number) |
 ## Stack
 |  |
@@ -447,6 +449,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0155-min-stack](https://github.com/somit17/DSA/tree/master/0155-min-stack) |
 | [0225-implement-stack-using-queues](https://github.com/somit17/DSA/tree/master/0225-implement-stack-using-queues) |
 | [0234-palindrome-linked-list](https://github.com/somit17/DSA/tree/master/0234-palindrome-linked-list) |
+| [0394-decode-string](https://github.com/somit17/DSA/tree/master/0394-decode-string) |
 | [0682-baseball-game](https://github.com/somit17/DSA/tree/master/0682-baseball-game) |
 | [0735-asteroid-collision](https://github.com/somit17/DSA/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/somit17/DSA/tree/master/0739-daily-temperatures) |
