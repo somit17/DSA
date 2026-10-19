@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/somit17/DSA/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/somit17/DSA/tree/master/0202-happy-number) |
 | [0268-missing-number](https://github.com/somit17/DSA/tree/master/0268-missing-number) |
+| [0367-valid-perfect-square](https://github.com/somit17/DSA/tree/master/0367-valid-perfect-square) |
 | [0509-fibonacci-number](https://github.com/somit17/DSA/tree/master/0509-fibonacci-number) |
 | [0633-sum-of-square-numbers](https://github.com/somit17/DSA/tree/master/0633-sum-of-square-numbers) |
 | [1137-n-th-tribonacci-number](https://github.com/somit17/DSA/tree/master/1137-n-th-tribonacci-number) |
@@ -185,6 +186,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/somit17/DSA/tree/master/0268-missing-number) |
 | [0278-first-bad-version](https://github.com/somit17/DSA/tree/master/0278-first-bad-version) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/somit17/DSA/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0367-valid-perfect-square](https://github.com/somit17/DSA/tree/master/0367-valid-perfect-square) |
 | [0374-guess-number-higher-or-lower](https://github.com/somit17/DSA/tree/master/0374-guess-number-higher-or-lower) |
 | [0633-sum-of-square-numbers](https://github.com/somit17/DSA/tree/master/0633-sum-of-square-numbers) |
 | [0704-binary-search](https://github.com/somit17/DSA/tree/master/0704-binary-search) |
