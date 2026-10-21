@@ -19,7 +19,10 @@ class Solution:
 
          
     def maxDepth(self, root: TreeNode | None) -> int:
-        return self.fill_levels(root,[],0)
+        if not root:
+            return 0
+        return 1 + (max(self.maxDepth(root.left),self.maxDepth(root.right)))
+        #return self.fill_levels(root,[],0)
         # result = []
         # if not root:
         #     return 0
