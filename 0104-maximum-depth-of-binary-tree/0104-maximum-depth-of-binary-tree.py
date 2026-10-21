@@ -49,7 +49,7 @@ class Solution:
         while queue : 
             level_count = len(queue)
             for i in range(level_count):
-                node = queue.pop()
+                node = queue.popleft()
                 if node.left:
                     queue.append(node.left)
                 if node.right:
