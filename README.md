@@ -747,4 +747,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0069-sqrtx](https://github.com/somit17/DSA/tree/master/0069-sqrtx) |
+## DP on Trees
+|  |
+| ------- |
+| [0543-diameter-of-binary-tree](https://github.com/somit17/DSA/tree/master/0543-diameter-of-binary-tree) |
 <!---LeetCode Topics End-->
