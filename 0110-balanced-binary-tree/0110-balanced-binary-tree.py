@@ -9,7 +9,6 @@ class Solution:
         if not root:
             return True
         stack = [(root,False)]
-        balanced = True
         height = {}
         while stack:
             node,visited = stack.pop()
@@ -23,6 +22,6 @@ class Solution:
                 l_subtree = height.get(node.left,0) 
                 r_subtree = height.get(node.right,0) 
                 if abs(r_subtree - l_subtree) > 1:
-                    balanced = False
+                    return False
                 height[node] = 1 + max(r_subtree,l_subtree)
-        return balanced
+        return True
