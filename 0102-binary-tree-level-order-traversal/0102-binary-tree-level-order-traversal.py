@@ -14,7 +14,7 @@ class Solution:
         while queue:
             level_count = len(queue)
             temp = []
-            for i in range(0,level_count):
+            for _ in range(level_count):
                 node = queue.popleft()
                 temp.append(node.val)
                 if node.left:
