@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0367-valid-perfect-square](https://github.com/somit17/DSA/tree/master/0367-valid-perfect-square) |
 | [0509-fibonacci-number](https://github.com/somit17/DSA/tree/master/0509-fibonacci-number) |
 | [0633-sum-of-square-numbers](https://github.com/somit17/DSA/tree/master/0633-sum-of-square-numbers) |
+| [0973-k-closest-points-to-origin](https://github.com/somit17/DSA/tree/master/0973-k-closest-points-to-origin) |
 | [1137-n-th-tribonacci-number](https://github.com/somit17/DSA/tree/master/1137-n-th-tribonacci-number) |
 | [1688-count-of-matches-in-tournament](https://github.com/somit17/DSA/tree/master/1688-count-of-matches-in-tournament) |
 | [1903-largest-odd-number-in-string](https://github.com/somit17/DSA/tree/master/1903-largest-odd-number-in-string) |
@@ -90,6 +91,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0904-fruit-into-baskets](https://github.com/somit17/DSA/tree/master/0904-fruit-into-baskets) |
 | [0912-sort-an-array](https://github.com/somit17/DSA/tree/master/0912-sort-an-array) |
 | [0929-unique-email-addresses](https://github.com/somit17/DSA/tree/master/0929-unique-email-addresses) |
+| [0973-k-closest-points-to-origin](https://github.com/somit17/DSA/tree/master/0973-k-closest-points-to-origin) |
 | [0980-unique-paths-iii](https://github.com/somit17/DSA/tree/master/0980-unique-paths-iii) |
 | [0994-rotting-oranges](https://github.com/somit17/DSA/tree/master/0994-rotting-oranges) |
 | [0997-find-the-town-judge](https://github.com/somit17/DSA/tree/master/0997-find-the-town-judge) |
@@ -127,6 +129,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0240-search-a-2d-matrix-ii](https://github.com/somit17/DSA/tree/master/0240-search-a-2d-matrix-ii) |
 | [0347-top-k-frequent-elements](https://github.com/somit17/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0912-sort-an-array](https://github.com/somit17/DSA/tree/master/0912-sort-an-array) |
+| [0973-k-closest-points-to-origin](https://github.com/somit17/DSA/tree/master/0973-k-closest-points-to-origin) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -219,6 +222,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0350-intersection-of-two-arrays-ii](https://github.com/somit17/DSA/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0389-find-the-difference](https://github.com/somit17/DSA/tree/master/0389-find-the-difference) |
 | [0912-sort-an-array](https://github.com/somit17/DSA/tree/master/0912-sort-an-array) |
+| [0973-k-closest-points-to-origin](https://github.com/somit17/DSA/tree/master/0973-k-closest-points-to-origin) |
 | [1331-rank-transform-of-an-array](https://github.com/somit17/DSA/tree/master/1331-rank-transform-of-an-array) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/somit17/DSA/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1833-maximum-ice-cream-bars](https://github.com/somit17/DSA/tree/master/1833-maximum-ice-cream-bars) |
@@ -415,6 +419,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0239-sliding-window-maximum](https://github.com/somit17/DSA/tree/master/0239-sliding-window-maximum) |
 | [0347-top-k-frequent-elements](https://github.com/somit17/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0912-sort-an-array](https://github.com/somit17/DSA/tree/master/0912-sort-an-array) |
+| [0973-k-closest-points-to-origin](https://github.com/somit17/DSA/tree/master/0973-k-closest-points-to-origin) |
 | [1046-last-stone-weight](https://github.com/somit17/DSA/tree/master/1046-last-stone-weight) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/somit17/DSA/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 ## Linked List
@@ -623,6 +628,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/somit17/DSA/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/somit17/DSA/tree/master/0347-top-k-frequent-elements) |
+| [0973-k-closest-points-to-origin](https://github.com/somit17/DSA/tree/master/0973-k-closest-points-to-origin) |
 ## Design
 |  |
 | ------- |
@@ -767,4 +773,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/somit17/DSA/tree/master/0023-merge-k-sorted-lists) |
+## Geometry
+|  |
+| ------- |
+| [0973-k-closest-points-to-origin](https://github.com/somit17/DSA/tree/master/0973-k-closest-points-to-origin) |
+## K-D Tree
+|  |
+| ------- |
+| [0973-k-closest-points-to-origin](https://github.com/somit17/DSA/tree/master/0973-k-closest-points-to-origin) |
 <!---LeetCode Topics End-->
