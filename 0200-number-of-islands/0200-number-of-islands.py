@@ -1,35 +1,32 @@
 class Solution:
     def numIslands(self, grid: List[List[str]]) -> int:
-        visited= set()
+        self.directions = [[0,1],[0,-1],[1,0],[-1,0]]
         count = 0
-        for r in range(len(grid)):
-            for c in range(len(grid[0])):
-                if self.explore(grid,r,c,visited):
-                    count+=1
-                     
+        visited = set()
+        for row in range(len(grid)):
+            for col in range(len(grid[0])):
+                if grid[row][col] == '1':
+                    if (row,col) not in visited:
+                        self.dfs(grid,row,col,visited)
+                        count+=1
         return count
-
-
-    def explore(self,grid,r,c,visited):
-        row_inbounds  = 0 <= r < len(grid)
-        col_inbounds  = 0 <= c < len(grid[0])
-
-        if not row_inbounds or not col_inbounds:
-            return False
-    
-        if grid[r][c] == '0':
-            return False
-
-        pos = (r,c)
+    def dfs(self,grid,r,c,visited):
+        row_bound = 0 <= r < len(grid)
+        col_bound = 0 <= c < len(grid[0])
+        if not row_bound or not col_bound:
+            return 
         
+        if grid[r][c] == '0':
+            return 
+        
+        pos = (r,c)
         if pos in visited:
-            return False
-
+            return 
+        
         visited.add(pos)
-  
-        self.explore(grid,r + 1,c,visited)
-        self.explore(grid,r - 1,c,visited)
-        self.explore(grid,r,c - 1,visited)
-        self.explore(grid,r,c + 1,visited)
-
-        return True
+        
+        for dr,dc in self.directions:
+            nr = dr + r
+            nc = dc + c
+            self.dfs(grid,nr,nc,visited)
+                
