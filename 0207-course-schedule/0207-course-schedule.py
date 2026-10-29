@@ -1,35 +1,25 @@
 class Solution:
-    def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
-        graph = [[] for _ in range(numCourses)]
-        indegree = [0] * numCourses
-
+    def canFinish(self, numCourses: int, prerequisites: list[list[int]]) -> bool:
+        num_parents = {i:0 for i in range(numCourses)}
+        graph = {i:[] for i in range(numCourses)}
+        
         for edge in prerequisites:
-            u = edge[0]
-            v = edge[1]
-            #v->u
+            u,v = edge
             graph[v].append(u)
-            indegree[u]+=1
-
-        def topologicalSort(graph,indegree):
-            queue = deque()
-            count = 0
-            for i in range(numCourses):
-                if indegree[i] == 0:
-                    queue.append(i)
-                    count += 1
-            while queue:
-                node = queue.popleft()
-                for neighbor in graph[node]:
-                    indegree[neighbor]-=1
-                    if indegree[neighbor]==0:
-                        queue.append(neighbor)
-                        count+=1
-            if count == numCourses: #Was able to finisihc couses
-                return True
+            num_parents[u]+=1
+        order = []    
+        ready = [k for k,v in num_parents.items() if v == 0]
+        if len(ready) == 0:
             return False
-
-
+        while ready:
+            node = ready.pop()
+            order.append(node)
+            for child in graph[node]:
+                num_parents[child]-=1
+                if num_parents[child] == 0:
+                    ready.append(child)
+        
+        return len(order) == numCourses
 
         
-        return topologicalSort(graph,indegree)
         
