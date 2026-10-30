@@ -1,14 +1,18 @@
 class Solution:
-    def canVisitAllRooms(self, rooms: List[List[int]]) -> bool:
+    def canVisitAllRooms(self, rooms: list[list[int]]) -> bool:
+        # graph = { i:[] for i in range(len(rooms))}
+        # for i,edge in enumerate(rooms):
+        #     graph[i].append(edge)
         visited = set()
         self.dfs(rooms,0,visited)
-        n = len(rooms)
-        return n == len(visited)
-
+        return len(rooms) == len(visited)
 
     def dfs(self,rooms,node,visited):
         if node in visited:
             return 
         visited.add(node)
-        for neighbor in rooms[node]:
-            self.dfs(rooms,neighbor,visited)
+        for neigbor in rooms[node]:
+            self.dfs(rooms,neigbor,visited)
+        
+        return 
+        
