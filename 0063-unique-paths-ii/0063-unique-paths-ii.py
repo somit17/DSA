@@ -1,17 +1,16 @@
+from functools import cache
+
 class Solution:
-    def uniquePathsWithObstacles(self, obstacleGrid: List[List[int]]) -> int:
-        def _uniquePathsWithObstacles(obstacleGrid,r,c,memo):
-            pos = (r,c)
-            if pos in memo:
-                return memo[pos]
-            #Base Case
-            if r == len(obstacleGrid) or c == len(obstacleGrid[0]) or obstacleGrid[r][c] == 1 :
-                return 0 
-            if r == len(obstacleGrid) - 1 and c == len(obstacleGrid[0]) - 1:
+    def uniquePathsWithObstacles(self, obstacleGrid: list[list[int]]) -> int:
+        m, n = len(obstacleGrid), len(obstacleGrid[0])
+        
+        @cache  # Memoization converts Backtracking -> DP!
+        def dfs(r, c):
+            if r >= m or c >= n or obstacleGrid[r][c] == 1:
+                return 0
+            if r == m - 1 and c == n - 1:
                 return 1
             
-            down = _uniquePathsWithObstacles(obstacleGrid,r+1,c,memo)
-            right = _uniquePathsWithObstacles(obstacleGrid,r,c+1,memo)
-            memo[pos] = down + right
-            return memo[pos]
-        return _uniquePathsWithObstacles(obstacleGrid,0,0,{})
+            return dfs(r + 1, c) + dfs(r, c + 1)
+
+        return dfs(0, 0)
