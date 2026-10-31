@@ -1,42 +1,29 @@
 class Solution:
     def findCircleNum(self, isConnected: List[List[int]]) -> int:
-        n = len(isConnected)
-        edges = []
-        for row in range(n):
-            for col in range(row + 1,n):
-                if isConnected[row][col] == 1:
-                    edges.append((row,col))
+        total_nodes = len(isConnected)
+        graph = {i:[] for i in range(total_nodes)} 
+        for i in range(len(isConnected)):
+            for j in range(len(isConnected[0])):
+                if isConnected[i][j] == 1 and j!=i:
+                    graph[i].append(j)
         #print(graph)
-        roots = [i for i in range(n)]
-        sizes = [1 for i in range(n)]
-
-        for edge in edges:
-            node_a,node_b = edge
-            self.union(roots,sizes,node_a,node_b)
-
-
+        visited = set()
         count = 0
-        for i in range(0, n):
-            if roots[i] == i:
-                count += 1
+        for i in range(total_nodes):
+            if i not in visited:
+                self.dfs(graph,i,visited)
+                count+=1
         return count
 
-    def union(self,roots,sizes,node_a,node_b):
-        root_a = self.find(roots,node_a)
-        root_b = self.find(roots,node_b)
-        if root_a == root_b:
+    def dfs(self,graph,src_node,visited):
+        if src_node in visited:
             return 
 
-        if sizes[root_a] > sizes[root_b]:
-            roots[root_b] = root_a
-            sizes[root_a] += sizes[root_b]
-        else:
-            roots[root_a] = root_b
-            sizes[root_b] += sizes[root_a]
+        visited.add(src_node)
 
-    def find(self,roots,node):
-        if roots[node] == node:
-            return node
-        found = self.find(roots,roots[node])
-        return found
+        for n in graph[src_node]:
+            if n not in visited:
+                self.dfs(graph,n,visited)
 
+        return 
+        
