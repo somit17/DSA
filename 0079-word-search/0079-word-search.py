@@ -1,36 +1,41 @@
 class Solution:
-    def exist(self, board: List[List[str]], word: str) -> bool:
+    def exist(self, board: list[list[str]], word: str) -> bool:
 
         rows = len(board)
         cols = len(board[0])
-        idx = 0
-        for row in range(rows):
-            for col in range(cols):
-                if board[row][col] == word[idx]:
-                    if self.dfs(board,row,col,idx,word):
+
+        for r in range(rows):
+            for c in range(cols):
+                if board[r][c]==word[0]:
+                    if self.dfs(board,r,c,word,0):
                         return True
+
         return False
-
-    def dfs(self,board,r,c,idx,word):
-
+                
+        
+    def dfs(self,board,r,c,word,idx):
         if idx == len(word):
             return True
-
-        #Row  and Col Bounds
-        if r < 0 or c < 0 or r >= len(board) or c >= len(board[0]) or board[r][c] == '$':
-            return False
         
+        #Bounds Check
+        rowsBound = 0 <= r < len(board)
+        colsBound = 0 <= c < len(board[0])
+
+        if not rowsBound or not colsBound:
+            return False
+
         if board[r][c]!=word[idx]:
             return False
 
-        directions = [(1,0),(0,1),(-1,0),(0,-1)]
-        temp = board[r][c]
-        board[r][c] = '$'
-        for direction in directions:
-            nr,nc = direction
-            if self.dfs(board,nr+r,nc+c,idx+1,word):
-                return True
-        board[r][c] = temp
-        return False   
-
         
+        #Temp store
+        temp = board[r][c]
+        board[r][c] = '#'
+
+        found = (self.dfs(board,r+1,c,word,idx+1) or
+                self.dfs(board,r-1,c,word,idx+1) or
+                self.dfs(board,r,c+1,word,idx+1) or
+                self.dfs(board,r,c-1,word,idx+1))
+
+        board[r][c] = temp
+        return found
