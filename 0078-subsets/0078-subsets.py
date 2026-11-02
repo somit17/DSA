@@ -1,18 +1,16 @@
 class Solution:
-    def subsets(self, nums: List[int]) -> List[List[int]]:
+    def subsets(self, nums: list[int]) -> list[list[int]]:
+        def dfs(index,path):
+            if index == len(nums):
+                result.append(path[:])  
+                return     
+            path.append(nums[index]) #Take
+            dfs(index+1,path)    #Explore by taking element
+            path.pop()           #Popped
+            dfs(index+1,path)    #Explore by popping element
 
-        if len(nums) == 0:
-            return [ [] ] #[[]]
-
-        first_element = nums[0] # 1
-        subs_without_first = self.subsets(nums[1:]) # [[]]
-        subs_with_first = []
-
-        for sub in subs_without_first:
-            subs_with_first.append([first_element,*sub])  
-
-        return subs_without_first + subs_with_first
-
-
-#[1]
+        result = []
+        dfs(0,[])
+        return result
+    
         
