@@ -4,21 +4,22 @@ class Solution:
         path = []
         used = [False] * len(nums)
 
-        def dfs(index):
+        def dfs():
             if len(path) == len(nums):
                 result.append(path[:])
                 return 
-            if index == len(nums):
-                return 
-            if not used[index]:    
+            # if index == len(nums):
+            #     return 
+            for index in range(len(nums)):
+                if used[index]: 
+                    continue   
                 #Take 
                 used[index] = True
                 path.append(nums[index])
-                dfs(0)
+                dfs()
                 #Skip
                 path.pop()
                 used[index] = False
-            dfs(index + 1) 
         
-        dfs(0)
+        dfs()
         return result
