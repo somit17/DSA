@@ -1,14 +1,17 @@
 class Solution:
-    def generateParenthesis(self, n: int) -> List[str]:
+    def generateParenthesis(self, n: int) -> list[str]:
         result = []
-        def backtrack(current,open_count,close_count):
-            #Base condition
-            if open_count == n and close_count == n:
-                result.append(current[:])
+
+        def dfs(open,close,s):
+            if open == n and close == n:
+                result.append(s)
                 return
-            if open_count < n:
-                backtrack(current+'(',open_count + 1,close_count)
-            if close_count < open_count:
-                backtrack(current+')',open_count,close_count + 1)
-        backtrack("",0,0)
+
+            if open < n:
+                dfs(open + 1,close,s + '(')
+                
+            if close < open:
+                dfs(open, close + 1,s + ')')
+
+        dfs(0,0,'')
         return result
