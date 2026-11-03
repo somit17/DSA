@@ -1,21 +1,26 @@
 class Solution:
-    def combinationSum3(self, k: int, n: int) -> List[List[int]]:
-        nums = [1,2,3,4,5,6,7,8,9]
+    def combinationSum3(self, k: int, n: int) -> list[list[int]]:
         result = []
-        def backtrack(start,comb,current_sum):
-            if current_sum == n and len(comb) == k:
-                result.append(comb[:])
-                return
+        path = []
 
-            if current_sum > n:
+        def dfs(num,total):
+            if total > n or len(path) > k:
                 return 
 
-            if len(comb) > k:
-                return
+            if total == n:
+                if len(path) == k:
+                    result.append(path[:])
+                    return
+            if num > 9:
+                return 
+            #Include next element
+            path.append(num)
+            dfs(num + 1,total + num)
+            #Remove element
+            path.pop()
+            dfs(num + 1,total)
 
-            for idx in range(start,len(nums)):
-                comb.append(nums[idx])
-                backtrack(idx+1,comb,current_sum + nums[idx])
-                comb.pop()
-        backtrack(0,[],0)
+
+
+        dfs(1,0)
         return result
