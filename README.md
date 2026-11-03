@@ -825,4 +825,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0980-unique-paths-iii](https://github.com/somit17/DSA/tree/master/0980-unique-paths-iii) |
+## Bracket Sequences
+|  |
+| ------- |
+| [0022-generate-parentheses](https://github.com/somit17/DSA/tree/master/0022-generate-parentheses) |
 <!---LeetCode Topics End-->
