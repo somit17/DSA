@@ -1,25 +1,24 @@
 class Solution:
-    def partition(self, s: str) -> List[List[str]]:
-        self.result = []
-        self.backtrack(s,0,[])
-        return self.result
+    def partition(self, s: str) -> list[list[str]]:
+        result= []
+        path = []
+        def is_pal(s,l,r):
+            while l < r:
+                if s[l]!=s[r]:
+                    return False
+                l+=1
+                r-=1
+            return True
 
+        def dfs(start):
+            if start==len(s):
+                result.append(path[:])
+                return 
+            for index in range(start,len(s)):
+                if is_pal(s,start,index):
+                    path.append(s[start:index+1])
+                    dfs(index+1)
+                    path.pop()
 
-    def backtrack(self,s,start,current):
-
-        if start == len(s):
-            self.result.append(current[:])
-
-        for end in range(start,len(s)):
-            if self.is_palindrome(s,start,end):
-                current.append(s[start:end+1])
-                self.backtrack(s,end+1,current)
-                current.pop()
-        
-    def is_palindrome(self,s,start,end):
-        while start < end:
-            if s[start]!=s[end]:
-                return False
-            start+=1
-            end-=1
-        return True
+        dfs(0)
+        return result
