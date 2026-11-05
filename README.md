@@ -834,4 +834,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/somit17/DSA/tree/master/0022-generate-parentheses) |
+## Knapsack Problem
+|  |
+| ------- |
+| [0322-coin-change](https://github.com/somit17/DSA/tree/master/0322-coin-change) |
+## Complete Knapsack
+|  |
+| ------- |
+| [0322-coin-change](https://github.com/somit17/DSA/tree/master/0322-coin-change) |
 <!---LeetCode Topics End-->
