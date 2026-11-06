@@ -1,25 +1,19 @@
 class Solution:
-    def rob(self, nums: List[int]) -> int:
-        # def helper(i):
-        #     if i < 0:
-        #         return 0
-        #     if i==0:
-        #         return nums[0]
-        #     rob = nums[i]+helper(i-2)
-        #     skip = helper(i-1)
-        #     return max(rob,skip)
-        # return helper(len(nums)-1)
-
-        def _rob(i,memo):
-            if i in memo:
-                return memo[i]
-            if i < 0:
+    def rob(self, nums: list[int]) -> int:
+        
+        def dfs(index,memo):
+            if index in memo:
+                return memo[index]
+            if index >= len(nums):
                 return 0
-            if i==0:
-                return nums[0]
             
-            take = nums[i]+_rob(i-2,memo)
-            skip = _rob(i-1,memo)
-            memo[i]= max(take,skip)
-            return memo[i]
-        return _rob(len(nums)-1,{})
+            #Take 
+            #path.append(nums[index])
+            take = nums[index] + dfs(index + 2,memo)
+            #Skip
+            #path.pop()
+            skip = dfs(index + 1,memo)
+            memo[index] = max(take,skip)
+            return memo[index]
+
+        return dfs(0,{})
