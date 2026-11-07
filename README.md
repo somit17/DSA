@@ -67,6 +67,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0198-house-robber](https://github.com/somit17/DSA/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/somit17/DSA/tree/master/0200-number-of-islands) |
 | [0209-minimum-size-subarray-sum](https://github.com/somit17/DSA/tree/master/0209-minimum-size-subarray-sum) |
+| [0213-house-robber-ii](https://github.com/somit17/DSA/tree/master/0213-house-robber-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/somit17/DSA/tree/master/0215-kth-largest-element-in-an-array) |
 | [0216-combination-sum-iii](https://github.com/somit17/DSA/tree/master/0216-combination-sum-iii) |
 | [0217-contains-duplicate](https://github.com/somit17/DSA/tree/master/0217-contains-duplicate) |
@@ -155,6 +156,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0124-binary-tree-maximum-path-sum](https://github.com/somit17/DSA/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0131-palindrome-partitioning](https://github.com/somit17/DSA/tree/master/0131-palindrome-partitioning) |
 | [0198-house-robber](https://github.com/somit17/DSA/tree/master/0198-house-robber) |
+| [0213-house-robber-ii](https://github.com/somit17/DSA/tree/master/0213-house-robber-ii) |
 | [0322-coin-change](https://github.com/somit17/DSA/tree/master/0322-coin-change) |
 | [0509-fibonacci-number](https://github.com/somit17/DSA/tree/master/0509-fibonacci-number) |
 | [0746-min-cost-climbing-stairs](https://github.com/somit17/DSA/tree/master/0746-min-cost-climbing-stairs) |
