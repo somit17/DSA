@@ -83,6 +83,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0463-island-perimeter](https://github.com/somit17/DSA/tree/master/0463-island-perimeter) |
 | [0485-max-consecutive-ones](https://github.com/somit17/DSA/tree/master/0485-max-consecutive-ones) |
 | [0491-non-decreasing-subsequences](https://github.com/somit17/DSA/tree/master/0491-non-decreasing-subsequences) |
+| [0494-target-sum](https://github.com/somit17/DSA/tree/master/0494-target-sum) |
 | [0643-maximum-average-subarray-i](https://github.com/somit17/DSA/tree/master/0643-maximum-average-subarray-i) |
 | [0682-baseball-game](https://github.com/somit17/DSA/tree/master/0682-baseball-game) |
 | [0692-top-k-frequent-words](https://github.com/somit17/DSA/tree/master/0692-top-k-frequent-words) |
@@ -158,6 +159,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0198-house-robber](https://github.com/somit17/DSA/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/somit17/DSA/tree/master/0213-house-robber-ii) |
 | [0322-coin-change](https://github.com/somit17/DSA/tree/master/0322-coin-change) |
+| [0494-target-sum](https://github.com/somit17/DSA/tree/master/0494-target-sum) |
 | [0509-fibonacci-number](https://github.com/somit17/DSA/tree/master/0509-fibonacci-number) |
 | [0746-min-cost-climbing-stairs](https://github.com/somit17/DSA/tree/master/0746-min-cost-climbing-stairs) |
 | [1137-n-th-tribonacci-number](https://github.com/somit17/DSA/tree/master/1137-n-th-tribonacci-number) |
@@ -732,6 +734,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0216-combination-sum-iii](https://github.com/somit17/DSA/tree/master/0216-combination-sum-iii) |
 | [0257-binary-tree-paths](https://github.com/somit17/DSA/tree/master/0257-binary-tree-paths) |
 | [0491-non-decreasing-subsequences](https://github.com/somit17/DSA/tree/master/0491-non-decreasing-subsequences) |
+| [0494-target-sum](https://github.com/somit17/DSA/tree/master/0494-target-sum) |
 | [0797-all-paths-from-source-to-target](https://github.com/somit17/DSA/tree/master/0797-all-paths-from-source-to-target) |
 | [0980-unique-paths-iii](https://github.com/somit17/DSA/tree/master/0980-unique-paths-iii) |
 | [1219-path-with-maximum-gold](https://github.com/somit17/DSA/tree/master/1219-path-with-maximum-gold) |
@@ -845,8 +848,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0322-coin-change](https://github.com/somit17/DSA/tree/master/0322-coin-change) |
+| [0494-target-sum](https://github.com/somit17/DSA/tree/master/0494-target-sum) |
 ## Complete Knapsack
 |  |
 | ------- |
 | [0322-coin-change](https://github.com/somit17/DSA/tree/master/0322-coin-change) |
+## 0-1 Knapsack
+|  |
+| ------- |
+| [0494-target-sum](https://github.com/somit17/DSA/tree/master/0494-target-sum) |
 <!---LeetCode Topics End-->
