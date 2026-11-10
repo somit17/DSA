@@ -1,17 +1,14 @@
 class Solution:
-    def merge(self, intervals: List[List[int]]) -> List[List[int]]:
-        sorted_intervals = sorted(intervals,key=lambda interval:interval[0])
-        #print(sorted_intervals)
+    def merge(self, intervals: list[list[int]]) -> list[list[int]]:
+        sorted_intervals = sorted(intervals,key = lambda x:x[0])
         combined = [sorted_intervals[0]]
-
-        for current_interval in sorted_intervals[1:]:
-            current_start,current_end = current_interval
-            last_start,last_end = combined[-1]
-
-            if last_end >= current_start:
-                if current_end > last_end:
-                    combined[-1] = (last_start,current_end)
+        #default = 
+        for current_interval in sorted_intervals:
+            s2,e2 = current_interval
+            s1,e1 = combined[-1]
+            if e1 >= s2:
+                if e2 > e1:
+                    combined[-1] = (s1,e2)
             else:
                 combined.append(current_interval)
         return combined
-
