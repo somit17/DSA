@@ -330,6 +330,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/somit17/DSA/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1394-find-lucky-integer-in-an-array](https://github.com/somit17/DSA/tree/master/1394-find-lucky-integer-in-an-array) |
 | [1436-destination-city](https://github.com/somit17/DSA/tree/master/1436-destination-city) |
+| [1624-largest-substring-between-two-equal-characters](https://github.com/somit17/DSA/tree/master/1624-largest-substring-between-two-equal-characters) |
 | [1684-count-the-number-of-consistent-strings](https://github.com/somit17/DSA/tree/master/1684-count-the-number-of-consistent-strings) |
 | [2006-count-number-of-pairs-with-absolute-difference-k](https://github.com/somit17/DSA/tree/master/2006-count-number-of-pairs-with-absolute-difference-k) |
 | [2418-sort-the-people](https://github.com/somit17/DSA/tree/master/2418-sort-the-people) |
@@ -380,6 +381,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/somit17/DSA/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1408-string-matching-in-an-array](https://github.com/somit17/DSA/tree/master/1408-string-matching-in-an-array) |
 | [1436-destination-city](https://github.com/somit17/DSA/tree/master/1436-destination-city) |
+| [1624-largest-substring-between-two-equal-characters](https://github.com/somit17/DSA/tree/master/1624-largest-substring-between-two-equal-characters) |
 | [1684-count-the-number-of-consistent-strings](https://github.com/somit17/DSA/tree/master/1684-count-the-number-of-consistent-strings) |
 | [1768-merge-strings-alternately](https://github.com/somit17/DSA/tree/master/1768-merge-strings-alternately) |
 | [1903-largest-odd-number-in-string](https://github.com/somit17/DSA/tree/master/1903-largest-odd-number-in-string) |
