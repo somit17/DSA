@@ -102,6 +102,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0735-asteroid-collision](https://github.com/somit17/DSA/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/somit17/DSA/tree/master/0739-daily-temperatures) |
 | [0746-min-cost-climbing-stairs](https://github.com/somit17/DSA/tree/master/0746-min-cost-climbing-stairs) |
+| [0860-lemonade-change](https://github.com/somit17/DSA/tree/master/0860-lemonade-change) |
 | [0867-transpose-matrix](https://github.com/somit17/DSA/tree/master/0867-transpose-matrix) |
 | [0904-fruit-into-baskets](https://github.com/somit17/DSA/tree/master/0904-fruit-into-baskets) |
 | [0912-sort-an-array](https://github.com/somit17/DSA/tree/master/0912-sort-an-array) |
@@ -450,6 +451,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/somit17/DSA/tree/master/0455-assign-cookies) |
 | [0605-can-place-flowers](https://github.com/somit17/DSA/tree/master/0605-can-place-flowers) |
 | [0680-valid-palindrome-ii](https://github.com/somit17/DSA/tree/master/0680-valid-palindrome-ii) |
+| [0860-lemonade-change](https://github.com/somit17/DSA/tree/master/0860-lemonade-change) |
 | [1833-maximum-ice-cream-bars](https://github.com/somit17/DSA/tree/master/1833-maximum-ice-cream-bars) |
 | [1903-largest-odd-number-in-string](https://github.com/somit17/DSA/tree/master/1903-largest-odd-number-in-string) |
 | [2706-buy-two-chocolates](https://github.com/somit17/DSA/tree/master/2706-buy-two-chocolates) |
