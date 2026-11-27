@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0202-happy-number](https://github.com/somit17/DSA/tree/master/0202-happy-number) |
 | [0231-power-of-two](https://github.com/somit17/DSA/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/somit17/DSA/tree/master/0268-missing-number) |
+| [0292-nim-game](https://github.com/somit17/DSA/tree/master/0292-nim-game) |
 | [0367-valid-perfect-square](https://github.com/somit17/DSA/tree/master/0367-valid-perfect-square) |
 | [0509-fibonacci-number](https://github.com/somit17/DSA/tree/master/0509-fibonacci-number) |
 | [0633-sum-of-square-numbers](https://github.com/somit17/DSA/tree/master/0633-sum-of-square-numbers) |
@@ -900,4 +901,24 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1143-longest-common-subsequence](https://github.com/somit17/DSA/tree/master/1143-longest-common-subsequence) |
+## Brainteaser
+|  |
+| ------- |
+| [0292-nim-game](https://github.com/somit17/DSA/tree/master/0292-nim-game) |
+## Minimax
+|  |
+| ------- |
+| [0292-nim-game](https://github.com/somit17/DSA/tree/master/0292-nim-game) |
+## Game Theory
+|  |
+| ------- |
+| [0292-nim-game](https://github.com/somit17/DSA/tree/master/0292-nim-game) |
+## Nim Game
+|  |
+| ------- |
+| [0292-nim-game](https://github.com/somit17/DSA/tree/master/0292-nim-game) |
+## Impartial Game
+|  |
+| ------- |
+| [0292-nim-game](https://github.com/somit17/DSA/tree/master/0292-nim-game) |
 <!---LeetCode Topics End-->
